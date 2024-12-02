@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Garmin\Projects\TriPeaks\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="3" lineNum="3" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="9" parent="globals" pc="268435630" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="10" parent="globals" pc="268435653" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="11" parent="globals" pc="268435675" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="12" parent="globals" pc="268435697" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="13" parent="globals" pc="268435719" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="34" parent="globals" pc="268435741" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="36" parent="globals" pc="268435807" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="38" parent="globals" pc="268435847" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="39" parent="globals" pc="268435913" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="41" parent="globals" pc="268435979" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="6" lineNum="43" parent="globals" pc="268436032" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="637" parent="globals" pc="268436073" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="638" parent="globals" pc="268436085" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="638" parent="globals" pc="268436106" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="639" parent="globals" pc="268436112" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="640" parent="globals" pc="268436177" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="640" parent="globals" pc="268436214" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="641" parent="globals" pc="268436220" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="644" parent="globals" pc="268436382" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="645" parent="globals" pc="268436390" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="646" parent="globals" pc="268436398" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="647" parent="globals" pc="268436428" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="648" parent="globals" pc="268436436" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="649" parent="globals" pc="268436459" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="652" parent="globals" pc="268436498" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="653" parent="globals" pc="268436508" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="654" parent="globals" pc="268436518" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="8" lineNum="655" parent="globals" pc="268436528" symbol="play"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="698" parent="globals" pc="268436531" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="699" parent="globals" pc="268436543" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="699" parent="globals" pc="268436554" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="700" parent="globals" pc="268436563" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="702" parent="globals" pc="268436571" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="703" parent="globals" pc="268436578" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="704" parent="globals" pc="268436589" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="705" parent="globals" pc="268436608" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="707" parent="globals" pc="268436618" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="708" parent="globals" pc="268436629" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="709" parent="globals" pc="268436646" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="711" parent="globals" pc="268436656" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="713" parent="globals" pc="268436666" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="716" parent="globals" pc="268436683" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="718" parent="globals" pc="268436696" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="719" parent="globals" pc="268436703" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="720" parent="globals" pc="268436727" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="9" lineNum="723" parent="globals" pc="268436750" symbol="commas"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="10" lineNum="5" parent="globals/TriPeaksDelegate" pc="268436753" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="11" lineNum="11" parent="globals/TriPeaksDelegate" pc="268436772" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="11" lineNum="12" parent="globals/TriPeaksDelegate" pc="268436774" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="11" lineNum="13" parent="globals/TriPeaksDelegate" pc="268436847" symbol="onMenu"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="12" lineNum="7" parent="globals/TriPeaksDelegate" pc="268436850" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="12" lineNum="8" parent="globals/TriPeaksDelegate" pc="268436852" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="16" parent="globals/TriPeaksDelegate" pc="268436871" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="17" parent="globals/TriPeaksDelegate" pc="268436875" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="18" parent="globals/TriPeaksDelegate" pc="268436888" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="18" parent="globals/TriPeaksDelegate" pc="268436899" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="19" parent="globals/TriPeaksDelegate" pc="268436905" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="20" parent="globals/TriPeaksDelegate" pc="268436913" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="66" parent="globals/TriPeaksDelegate" pc="268436933" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="93" parent="globals/TriPeaksDelegate" pc="268436953" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="102" parent="globals/TriPeaksDelegate" pc="268436973" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="22" parent="globals/TriPeaksDelegate" pc="268436996" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="23" parent="globals/TriPeaksDelegate" pc="268437034" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="24" parent="globals/TriPeaksDelegate" pc="268437056" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="24" parent="globals/TriPeaksDelegate" pc="268437073" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="25" parent="globals/TriPeaksDelegate" pc="268437107" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="26" parent="globals/TriPeaksDelegate" pc="268437119" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="27" parent="globals/TriPeaksDelegate" pc="268437135" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="29" parent="globals/TriPeaksDelegate" pc="268437141" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="30" parent="globals/TriPeaksDelegate" pc="268437179" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="31" parent="globals/TriPeaksDelegate" pc="268437219" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="32" parent="globals/TriPeaksDelegate" pc="268437231" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="33" parent="globals/TriPeaksDelegate" pc="268437247" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="35" parent="globals/TriPeaksDelegate" pc="268437253" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="36" parent="globals/TriPeaksDelegate" pc="268437285" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="37" parent="globals/TriPeaksDelegate" pc="268437313" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="37" parent="globals/TriPeaksDelegate" pc="268437326" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="38" parent="globals/TriPeaksDelegate" pc="268437342" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="39" parent="globals/TriPeaksDelegate" pc="268437382" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="40" parent="globals/TriPeaksDelegate" pc="268437411" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="41" parent="globals/TriPeaksDelegate" pc="268437427" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="43" parent="globals/TriPeaksDelegate" pc="268437433" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="44" parent="globals/TriPeaksDelegate" pc="268437465" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="45" parent="globals/TriPeaksDelegate" pc="268437493" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="45" parent="globals/TriPeaksDelegate" pc="268437506" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="46" parent="globals/TriPeaksDelegate" pc="268437522" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="47" parent="globals/TriPeaksDelegate" pc="268437562" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="48" parent="globals/TriPeaksDelegate" pc="268437591" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="49" parent="globals/TriPeaksDelegate" pc="268437607" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="51" parent="globals/TriPeaksDelegate" pc="268437613" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="52" parent="globals/TriPeaksDelegate" pc="268437645" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="53" parent="globals/TriPeaksDelegate" pc="268437667" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="53" parent="globals/TriPeaksDelegate" pc="268437684" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="54" parent="globals/TriPeaksDelegate" pc="268437709" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="54" parent="globals/TriPeaksDelegate" pc="268437726" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="55" parent="globals/TriPeaksDelegate" pc="268437751" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="56" parent="globals/TriPeaksDelegate" pc="268437767" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="57" parent="globals/TriPeaksDelegate" pc="268437781" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="58" parent="globals/TriPeaksDelegate" pc="268437811" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="60" parent="globals/TriPeaksDelegate" pc="268437847" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="61" parent="globals/TriPeaksDelegate" pc="268437857" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="62" parent="globals/TriPeaksDelegate" pc="268437869" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="63" parent="globals/TriPeaksDelegate" pc="268437885" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="65" parent="globals/TriPeaksDelegate" pc="268437891" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="68" parent="globals/TriPeaksDelegate" pc="268437894" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="69" parent="globals/TriPeaksDelegate" pc="268437924" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="70" parent="globals/TriPeaksDelegate" pc="268437944" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="71" parent="globals/TriPeaksDelegate" pc="268438054" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="72" parent="globals/TriPeaksDelegate" pc="268438075" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="73" parent="globals/TriPeaksDelegate" pc="268438086" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="74" parent="globals/TriPeaksDelegate" pc="268438098" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="75" parent="globals/TriPeaksDelegate" pc="268438114" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="77" parent="globals/TriPeaksDelegate" pc="268438120" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="81" parent="globals/TriPeaksDelegate" pc="268438142" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="82" parent="globals/TriPeaksDelegate" pc="268438203" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="83" parent="globals/TriPeaksDelegate" pc="268438215" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="84" parent="globals/TriPeaksDelegate" pc="268438231" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="85" parent="globals/TriPeaksDelegate" pc="268438243" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="87" parent="globals/TriPeaksDelegate" pc="268438249" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="88" parent="globals/TriPeaksDelegate" pc="268438281" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="89" parent="globals/TriPeaksDelegate" pc="268438293" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="90" parent="globals/TriPeaksDelegate" pc="268438309" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="92" parent="globals/TriPeaksDelegate" pc="268438315" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="95" parent="globals/TriPeaksDelegate" pc="268438318" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="96" parent="globals/TriPeaksDelegate" pc="268438350" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="97" parent="globals/TriPeaksDelegate" pc="268438362" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="98" parent="globals/TriPeaksDelegate" pc="268438374" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="99" parent="globals/TriPeaksDelegate" pc="268438390" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="101" parent="globals/TriPeaksDelegate" pc="268438396" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="104" parent="globals/TriPeaksDelegate" pc="268438399" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="105" parent="globals/TriPeaksDelegate" pc="268438431" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="106" parent="globals/TriPeaksDelegate" pc="268438443" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="107" parent="globals/TriPeaksDelegate" pc="268438455" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="108" parent="globals/TriPeaksDelegate" pc="268438471" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="110" parent="globals/TriPeaksDelegate" pc="268438477" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="13" lineNum="112" parent="globals/TriPeaksDelegate" pc="268438481" symbol="onTap"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="119" parent="globals/TriPeaksDelegate" pc="268438484" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="120" parent="globals/TriPeaksDelegate" pc="268438488" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="121" parent="globals/TriPeaksDelegate" pc="268438513" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="122" parent="globals/TriPeaksDelegate" pc="268438538" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="122" parent="globals/TriPeaksDelegate" pc="268438552" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="123" parent="globals/TriPeaksDelegate" pc="268438558" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="123" parent="globals/TriPeaksDelegate" pc="268438581" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="124" parent="globals/TriPeaksDelegate" pc="268438587" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="124" parent="globals/TriPeaksDelegate" pc="268438601" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="125" parent="globals/TriPeaksDelegate" pc="268438607" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="125" parent="globals/TriPeaksDelegate" pc="268438630" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksDelegate.mc" id="14" lineNum="126" parent="globals/TriPeaksDelegate" pc="268438636" symbol="inbox"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="15" lineNum="5" parent="globals/TriPeaksApp" pc="268438639" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="16" lineNum="12" parent="globals/TriPeaksApp" pc="268438658" symbol="onStart"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="17" lineNum="20" parent="globals/TriPeaksApp" pc="268438661" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="17" lineNum="21" parent="globals/TriPeaksApp" pc="268438663" symbol="getInitialView"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="18" lineNum="7" parent="globals/TriPeaksApp" pc="268438738" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="18" lineNum="8" parent="globals/TriPeaksApp" pc="268438740" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="19" lineNum="16" parent="globals/TriPeaksApp" pc="268438759" symbol="onStop"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="726" parent="globals" pc="268438762" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="728" parent="globals" pc="268438774" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="730" parent="globals" pc="268438777" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="733" parent="globals" pc="268438787" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="734" parent="globals" pc="268438805" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="734" parent="globals" pc="268438825" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="736" parent="globals" pc="268438836" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="737" parent="globals" pc="268438850" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="738" parent="globals" pc="268438874" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="742" parent="globals" pc="268438911" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="743" parent="globals" pc="268438929" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="744" parent="globals" pc="268438942" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="746" parent="globals" pc="268438955" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="747" parent="globals" pc="268438963" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="748" parent="globals" pc="268438987" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="749" parent="globals" pc="268439005" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="750" parent="globals" pc="268439023" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="753" parent="globals" pc="268439055" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="754" parent="globals" pc="268439073" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="759" parent="globals" pc="268439104" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="760" parent="globals" pc="268439122" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="763" parent="globals" pc="268439134" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="764" parent="globals" pc="268439152" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="768" parent="globals" pc="268439164" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="20" lineNum="771" parent="globals" pc="268439168" symbol="deepcopy"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="21" lineNum="7" parent="globals/TriPeaksMenuDelegate" pc="268439171" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="22" lineNum="46" parent="globals/TriPeaksMenuDelegate" pc="268439190" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="22" lineNum="47" parent="globals/TriPeaksMenuDelegate" pc="268439192" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="23" lineNum="9" parent="globals/TriPeaksMenuDelegate" pc="268439214" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="23" lineNum="10" parent="globals/TriPeaksMenuDelegate" pc="268439216" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="13" parent="globals/TriPeaksMenuDelegate" pc="268439235" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="14" parent="globals/TriPeaksMenuDelegate" pc="268439237" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="15" parent="globals/TriPeaksMenuDelegate" pc="268439248" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="20" parent="globals/TriPeaksMenuDelegate" pc="268439268" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="25" parent="globals/TriPeaksMenuDelegate" pc="268439288" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="30" parent="globals/TriPeaksMenuDelegate" pc="268439308" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="35" parent="globals/TriPeaksMenuDelegate" pc="268439328" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="40" parent="globals/TriPeaksMenuDelegate" pc="268439348" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="16" parent="globals/TriPeaksMenuDelegate" pc="268439371" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="17" parent="globals/TriPeaksMenuDelegate" pc="268439411" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="18" parent="globals/TriPeaksMenuDelegate" pc="268439440" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="19" parent="globals/TriPeaksMenuDelegate" pc="268439469" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="21" parent="globals/TriPeaksMenuDelegate" pc="268439472" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="22" parent="globals/TriPeaksMenuDelegate" pc="268439512" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="23" parent="globals/TriPeaksMenuDelegate" pc="268439541" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="24" parent="globals/TriPeaksMenuDelegate" pc="268439570" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="26" parent="globals/TriPeaksMenuDelegate" pc="268439573" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="27" parent="globals/TriPeaksMenuDelegate" pc="268439613" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="28" parent="globals/TriPeaksMenuDelegate" pc="268439642" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="29" parent="globals/TriPeaksMenuDelegate" pc="268439671" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="31" parent="globals/TriPeaksMenuDelegate" pc="268439674" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="32" parent="globals/TriPeaksMenuDelegate" pc="268439714" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="33" parent="globals/TriPeaksMenuDelegate" pc="268439743" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="34" parent="globals/TriPeaksMenuDelegate" pc="268439772" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="36" parent="globals/TriPeaksMenuDelegate" pc="268439775" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="37" parent="globals/TriPeaksMenuDelegate" pc="268439815" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="38" parent="globals/TriPeaksMenuDelegate" pc="268439844" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="39" parent="globals/TriPeaksMenuDelegate" pc="268439873" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="41" parent="globals/TriPeaksMenuDelegate" pc="268439876" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="24" lineNum="42" parent="globals/TriPeaksMenuDelegate" pc="268439888" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="25" lineNum="64" parent="globals/TriPeaksView" pc="268439893" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="416" parent="globals/TriPeaksView" pc="268439912" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="417" parent="globals/TriPeaksView" pc="268439916" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="417" parent="globals/TriPeaksView" pc="268439937" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="418" parent="globals/TriPeaksView" pc="268439941" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="420" parent="globals/TriPeaksView" pc="268439951" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="421" parent="globals/TriPeaksView" pc="268439961" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="422" parent="globals/TriPeaksView" pc="268439971" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="423" parent="globals/TriPeaksView" pc="268439990" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="425" parent="globals/TriPeaksView" pc="268440009" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="424" parent="globals/TriPeaksView" pc="268440009" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="426" parent="globals/TriPeaksView" pc="268440016" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="427" parent="globals/TriPeaksView" pc="268440023" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="428" parent="globals/TriPeaksView" pc="268440027" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="429" parent="globals/TriPeaksView" pc="268440040" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="430" parent="globals/TriPeaksView" pc="268440060" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="431" parent="globals/TriPeaksView" pc="268440083" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="433" parent="globals/TriPeaksView" pc="268440109" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="435" parent="globals/TriPeaksView" pc="268440113" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="436" parent="globals/TriPeaksView" pc="268440115" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="441" parent="globals/TriPeaksView" pc="268440135" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="446" parent="globals/TriPeaksView" pc="268440155" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="451" parent="globals/TriPeaksView" pc="268440175" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="456" parent="globals/TriPeaksView" pc="268440195" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="437" parent="globals/TriPeaksView" pc="268440198" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="438" parent="globals/TriPeaksView" pc="268440208" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="438" parent="globals/TriPeaksView" pc="268440219" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="439" parent="globals/TriPeaksView" pc="268440238" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="440" parent="globals/TriPeaksView" pc="268440254" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="442" parent="globals/TriPeaksView" pc="268440257" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="443" parent="globals/TriPeaksView" pc="268440267" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="443" parent="globals/TriPeaksView" pc="268440278" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="444" parent="globals/TriPeaksView" pc="268440297" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="445" parent="globals/TriPeaksView" pc="268440313" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="447" parent="globals/TriPeaksView" pc="268440316" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="448" parent="globals/TriPeaksView" pc="268440326" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="448" parent="globals/TriPeaksView" pc="268440337" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="449" parent="globals/TriPeaksView" pc="268440356" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="450" parent="globals/TriPeaksView" pc="268440372" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="452" parent="globals/TriPeaksView" pc="268440375" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="453" parent="globals/TriPeaksView" pc="268440385" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="453" parent="globals/TriPeaksView" pc="268440396" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="454" parent="globals/TriPeaksView" pc="268440415" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="455" parent="globals/TriPeaksView" pc="268440431" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="457" parent="globals/TriPeaksView" pc="268440434" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="458" parent="globals/TriPeaksView" pc="268440438" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="459" parent="globals/TriPeaksView" pc="268440448" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="459" parent="globals/TriPeaksView" pc="268440459" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="460" parent="globals/TriPeaksView" pc="268440469" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="461" parent="globals/TriPeaksView" pc="268440476" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="465" parent="globals/TriPeaksView" pc="268440480" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="466" parent="globals/TriPeaksView" pc="268440491" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="467" parent="globals/TriPeaksView" pc="268440496" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="468" parent="globals/TriPeaksView" pc="268440527" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="470" parent="globals/TriPeaksView" pc="268440582" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="471" parent="globals/TriPeaksView" pc="268440607" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="472" parent="globals/TriPeaksView" pc="268440641" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="473" parent="globals/TriPeaksView" pc="268440669" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="474" parent="globals/TriPeaksView" pc="268440692" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="475" parent="globals/TriPeaksView" pc="268440726" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="476" parent="globals/TriPeaksView" pc="268440731" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="478" parent="globals/TriPeaksView" pc="268440762" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="480" parent="globals/TriPeaksView" pc="268440790" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="481" parent="globals/TriPeaksView" pc="268440813" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="482" parent="globals/TriPeaksView" pc="268440844" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="483" parent="globals/TriPeaksView" pc="268440878" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="484" parent="globals/TriPeaksView" pc="268440883" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="485" parent="globals/TriPeaksView" pc="268440914" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="487" parent="globals/TriPeaksView" pc="268440969" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="488" parent="globals/TriPeaksView" pc="268440994" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="492" parent="globals/TriPeaksView" pc="268441028" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="493" parent="globals/TriPeaksView" pc="268441033" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="494" parent="globals/TriPeaksView" pc="268441038" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="495" parent="globals/TriPeaksView" pc="268441049" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="497" parent="globals/TriPeaksView" pc="268441080" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="499" parent="globals/TriPeaksView" pc="268441111" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="501" parent="globals/TriPeaksView" pc="268441184" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="502" parent="globals/TriPeaksView" pc="268441209" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="506" parent="globals/TriPeaksView" pc="268441264" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="507" parent="globals/TriPeaksView" pc="268441271" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="508" parent="globals/TriPeaksView" pc="268441276" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="509" parent="globals/TriPeaksView" pc="268441287" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="511" parent="globals/TriPeaksView" pc="268441318" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="513" parent="globals/TriPeaksView" pc="268441349" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="514" parent="globals/TriPeaksView" pc="268441428" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="516" parent="globals/TriPeaksView" pc="268441516" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="517" parent="globals/TriPeaksView" pc="268441541" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="26" lineNum="518" parent="globals/TriPeaksView" pc="268441602" symbol="drawcard2"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="359" parent="globals/TriPeaksView" pc="268441670" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="360" parent="globals/TriPeaksView" pc="268441674" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="361" parent="globals/TriPeaksView" pc="268441699" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="362" parent="globals/TriPeaksView" pc="268441724" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="363" parent="globals/TriPeaksView" pc="268441734" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="364" parent="globals/TriPeaksView" pc="268441744" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="365" parent="globals/TriPeaksView" pc="268441755" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="366" parent="globals/TriPeaksView" pc="268441766" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="367" parent="globals/TriPeaksView" pc="268441797" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="369" parent="globals/TriPeaksView" pc="268441852" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="370" parent="globals/TriPeaksView" pc="268441857" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="372" parent="globals/TriPeaksView" pc="268441885" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="374" parent="globals/TriPeaksView" pc="268441916" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="375" parent="globals/TriPeaksView" pc="268441950" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="376" parent="globals/TriPeaksView" pc="268441961" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="377" parent="globals/TriPeaksView" pc="268441989" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="379" parent="globals/TriPeaksView" pc="268442062" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="380" parent="globals/TriPeaksView" pc="268442090" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="382" parent="globals/TriPeaksView" pc="268442145" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="383" parent="globals/TriPeaksView" pc="268442156" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="384" parent="globals/TriPeaksView" pc="268442187" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="385" parent="globals/TriPeaksView" pc="268442239" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="387" parent="globals/TriPeaksView" pc="268442312" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="388" parent="globals/TriPeaksView" pc="268442317" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="390" parent="globals/TriPeaksView" pc="268442345" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="392" parent="globals/TriPeaksView" pc="268442376" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="28" lineNum="393" parent="globals/TriPeaksView" pc="268442410" symbol="drawbutton"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="397" parent="globals/TriPeaksView" pc="268442463" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="398" parent="globals/TriPeaksView" pc="268442467" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="399" parent="globals/TriPeaksView" pc="268442467" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="400" parent="globals/TriPeaksView" pc="268442516" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="401" parent="globals/TriPeaksView" pc="268442565" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="402" parent="globals/TriPeaksView" pc="268442595" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="403" parent="globals/TriPeaksView" pc="268442644" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="404" parent="globals/TriPeaksView" pc="268442699" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="405" parent="globals/TriPeaksView" pc="268442727" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="406" parent="globals/TriPeaksView" pc="268442755" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="406" parent="globals/TriPeaksView" pc="268442775" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="407" parent="globals/TriPeaksView" pc="268442803" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="29" lineNum="408" parent="globals/TriPeaksView" pc="268442816" symbol="drawboard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="70" parent="globals/TriPeaksView" pc="268442902" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="71" parent="globals/TriPeaksView" pc="268442904" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="72" parent="globals/TriPeaksView" pc="268442974" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="73" parent="globals/TriPeaksView" pc="268443008" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="74" parent="globals/TriPeaksView" pc="268443030" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="76" parent="globals/TriPeaksView" pc="268443040" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="77" parent="globals/TriPeaksView" pc="268443068" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="81" parent="globals/TriPeaksView" pc="268443090" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="83" parent="globals/TriPeaksView" pc="268443154" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="84" parent="globals/TriPeaksView" pc="268443224" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="86" parent="globals/TriPeaksView" pc="268443294" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="90" parent="globals/TriPeaksView" pc="268443448" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="91" parent="globals/TriPeaksView" pc="268443518" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="93" parent="globals/TriPeaksView" pc="268443588" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="94" parent="globals/TriPeaksView" pc="268443658" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="95" parent="globals/TriPeaksView" pc="268443728" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="96" parent="globals/TriPeaksView" pc="268443798" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="98" parent="globals/TriPeaksView" pc="268443868" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="99" parent="globals/TriPeaksView" pc="268443932" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="102" parent="globals/TriPeaksView" pc="268444002" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="103" parent="globals/TriPeaksView" pc="268444066" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="104" parent="globals/TriPeaksView" pc="268444136" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="106" parent="globals/TriPeaksView" pc="268444206" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="107" parent="globals/TriPeaksView" pc="268444216" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="108" parent="globals/TriPeaksView" pc="268444226" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="111" parent="globals/TriPeaksView" pc="268444240" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="112" parent="globals/TriPeaksView" pc="268444257" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="115" parent="globals/TriPeaksView" pc="268444307" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="116" parent="globals/TriPeaksView" pc="268444324" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="119" parent="globals/TriPeaksView" pc="268444374" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="120" parent="globals/TriPeaksView" pc="268444391" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="124" parent="globals/TriPeaksView" pc="268444441" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="127" parent="globals/TriPeaksView" pc="268444488" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="128" parent="globals/TriPeaksView" pc="268444519" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="30" lineNum="129" parent="globals/TriPeaksView" pc="268444547" symbol="onLayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="315" parent="globals/TriPeaksView" pc="268444576" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="316" parent="globals/TriPeaksView" pc="268444580" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="317" parent="globals/TriPeaksView" pc="268444608" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="318" parent="globals/TriPeaksView" pc="268444642" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="319" parent="globals/TriPeaksView" pc="268444676" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="320" parent="globals/TriPeaksView" pc="268444698" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="321" parent="globals/TriPeaksView" pc="268444720" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="322" parent="globals/TriPeaksView" pc="268444742" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="323" parent="globals/TriPeaksView" pc="268444753" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="324" parent="globals/TriPeaksView" pc="268444764" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="325" parent="globals/TriPeaksView" pc="268444795" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="327" parent="globals/TriPeaksView" pc="268444844" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="328" parent="globals/TriPeaksView" pc="268444875" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="330" parent="globals/TriPeaksView" pc="268444906" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="331" parent="globals/TriPeaksView" pc="268444917" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="332" parent="globals/TriPeaksView" pc="268444948" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="334" parent="globals/TriPeaksView" pc="268444997" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="31" lineNum="335" parent="globals/TriPeaksView" pc="268445028" symbol="drawplate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="32" lineNum="412" parent="globals/TriPeaksView" pc="268445057" symbol="drawcard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="32" lineNum="413" parent="globals/TriPeaksView" pc="268445059" symbol="drawcard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="139" parent="globals/TriPeaksView" pc="268445084" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="140" parent="globals/TriPeaksView" pc="268445088" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="142" parent="globals/TriPeaksView" pc="268445098" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="143" parent="globals/TriPeaksView" pc="268445126" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="143" parent="globals/TriPeaksView" pc="268445139" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="143" parent="globals/TriPeaksView" pc="268445152" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="144" parent="globals/TriPeaksView" pc="268445184" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="145" parent="globals/TriPeaksView" pc="268445192" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="149" parent="globals/TriPeaksView" pc="268445212" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="153" parent="globals/TriPeaksView" pc="268445232" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="157" parent="globals/TriPeaksView" pc="268445252" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="146" parent="globals/TriPeaksView" pc="268445275" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="147" parent="globals/TriPeaksView" pc="268445285" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="148" parent="globals/TriPeaksView" pc="268445295" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="150" parent="globals/TriPeaksView" pc="268445298" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="151" parent="globals/TriPeaksView" pc="268445308" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="152" parent="globals/TriPeaksView" pc="268445318" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="154" parent="globals/TriPeaksView" pc="268445321" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="155" parent="globals/TriPeaksView" pc="268445331" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="156" parent="globals/TriPeaksView" pc="268445341" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="158" parent="globals/TriPeaksView" pc="268445344" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="159" parent="globals/TriPeaksView" pc="268445354" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="160" parent="globals/TriPeaksView" pc="268445364" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="163" parent="globals/TriPeaksView" pc="268445368" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="164" parent="globals/TriPeaksView" pc="268445396" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="164" parent="globals/TriPeaksView" pc="268445409" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="164" parent="globals/TriPeaksView" pc="268445422" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="165" parent="globals/TriPeaksView" pc="268445454" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="167" parent="globals/TriPeaksView" pc="268445479" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="168" parent="globals/TriPeaksView" pc="268445507" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="168" parent="globals/TriPeaksView" pc="268445520" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="168" parent="globals/TriPeaksView" pc="268445533" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="170" parent="globals/TriPeaksView" pc="268445565" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="171" parent="globals/TriPeaksView" pc="268445593" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="171" parent="globals/TriPeaksView" pc="268445606" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="171" parent="globals/TriPeaksView" pc="268445619" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="173" parent="globals/TriPeaksView" pc="268445651" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="174" parent="globals/TriPeaksView" pc="268445659" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="178" parent="globals/TriPeaksView" pc="268445679" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="175" parent="globals/TriPeaksView" pc="268445702" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="176" parent="globals/TriPeaksView" pc="268445768" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="177" parent="globals/TriPeaksView" pc="268445834" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="179" parent="globals/TriPeaksView" pc="268445837" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="180" parent="globals/TriPeaksView" pc="268445903" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="181" parent="globals/TriPeaksView" pc="268445969" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="184" parent="globals/TriPeaksView" pc="268445973" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="185" parent="globals/TriPeaksView" pc="268446001" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="185" parent="globals/TriPeaksView" pc="268446014" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="185" parent="globals/TriPeaksView" pc="268446027" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="186" parent="globals/TriPeaksView" pc="268446059" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="187" parent="globals/TriPeaksView" pc="268446076" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="188" parent="globals/TriPeaksView" pc="268446146" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="190" parent="globals/TriPeaksView" pc="268446219" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="191" parent="globals/TriPeaksView" pc="268446289" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="195" parent="globals/TriPeaksView" pc="268446359" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="196" parent="globals/TriPeaksView" pc="268446371" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="199" parent="globals/TriPeaksView" pc="268446386" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="200" parent="globals/TriPeaksView" pc="268446420" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="202" parent="globals/TriPeaksView" pc="268446438" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="204" parent="globals/TriPeaksView" pc="268446475" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="205" parent="globals/TriPeaksView" pc="268446483" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="223" parent="globals/TriPeaksView" pc="268446503" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="239" parent="globals/TriPeaksView" pc="268446523" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="252" parent="globals/TriPeaksView" pc="268446543" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="207" parent="globals/TriPeaksView" pc="268446566" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="208" parent="globals/TriPeaksView" pc="268446578" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="210" parent="globals/TriPeaksView" pc="268446590" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="212" parent="globals/TriPeaksView" pc="268446610" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="214" parent="globals/TriPeaksView" pc="268446659" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="215" parent="globals/TriPeaksView" pc="268446702" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="217" parent="globals/TriPeaksView" pc="268446745" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="218" parent="globals/TriPeaksView" pc="268446794" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="221" parent="globals/TriPeaksView" pc="268446846" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="222" parent="globals/TriPeaksView" pc="268446889" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="224" parent="globals/TriPeaksView" pc="268446892" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="226" parent="globals/TriPeaksView" pc="268446929" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="228" parent="globals/TriPeaksView" pc="268446946" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="229" parent="globals/TriPeaksView" pc="268446966" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="230" parent="globals/TriPeaksView" pc="268447003" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="231" parent="globals/TriPeaksView" pc="268447023" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="233" parent="globals/TriPeaksView" pc="268447051" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="238" parent="globals/TriPeaksView" pc="268447094" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="241" parent="globals/TriPeaksView" pc="268447097" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="243" parent="globals/TriPeaksView" pc="268447114" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="244" parent="globals/TriPeaksView" pc="268447151" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="246" parent="globals/TriPeaksView" pc="268447179" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="248" parent="globals/TriPeaksView" pc="268447222" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="250" parent="globals/TriPeaksView" pc="268447259" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="251" parent="globals/TriPeaksView" pc="268447302" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="254" parent="globals/TriPeaksView" pc="268447305" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="256" parent="globals/TriPeaksView" pc="268447322" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="257" parent="globals/TriPeaksView" pc="268447359" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="259" parent="globals/TriPeaksView" pc="268447387" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="261" parent="globals/TriPeaksView" pc="268447430" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="263" parent="globals/TriPeaksView" pc="268447467" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="264" parent="globals/TriPeaksView" pc="268447510" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="267" parent="globals/TriPeaksView" pc="268447514" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="268" parent="globals/TriPeaksView" pc="268447525" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="269" parent="globals/TriPeaksView" pc="268447551" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="270" parent="globals/TriPeaksView" pc="268447582" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="271" parent="globals/TriPeaksView" pc="268447608" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="272" parent="globals/TriPeaksView" pc="268447622" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="273" parent="globals/TriPeaksView" pc="268447635" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="274" parent="globals/TriPeaksView" pc="268447647" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="275" parent="globals/TriPeaksView" pc="268447659" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="277" parent="globals/TriPeaksView" pc="268447672" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="278" parent="globals/TriPeaksView" pc="268447706" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="281" parent="globals/TriPeaksView" pc="268447750" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="282" parent="globals/TriPeaksView" pc="268447761" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="283" parent="globals/TriPeaksView" pc="268447765" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="284" parent="globals/TriPeaksView" pc="268447795" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="285" parent="globals/TriPeaksView" pc="268447820" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="286" parent="globals/TriPeaksView" pc="268447846" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="287" parent="globals/TriPeaksView" pc="268447872" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="289" parent="globals/TriPeaksView" pc="268447900" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="291" parent="globals/TriPeaksView" pc="268447904" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="292" parent="globals/TriPeaksView" pc="268447953" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="293" parent="globals/TriPeaksView" pc="268447975" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="296" parent="globals/TriPeaksView" pc="268448028" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="297" parent="globals/TriPeaksView" pc="268448033" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="298" parent="globals/TriPeaksView" pc="268448045" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="299" parent="globals/TriPeaksView" pc="268448059" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="300" parent="globals/TriPeaksView" pc="268448069" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="302" parent="globals/TriPeaksView" pc="268448084" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="303" parent="globals/TriPeaksView" pc="268448110" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="304" parent="globals/TriPeaksView" pc="268448144" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="35" lineNum="306" parent="globals/TriPeaksView" pc="268448188" symbol="onUpdate"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="340" parent="globals/TriPeaksView" pc="268448204" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="341" parent="globals/TriPeaksView" pc="268448206" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="341" parent="globals/TriPeaksView" pc="268448211" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="342" parent="globals/TriPeaksView" pc="268448230" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="343" parent="globals/TriPeaksView" pc="268448246" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="344" parent="globals/TriPeaksView" pc="268448257" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="345" parent="globals/TriPeaksView" pc="268448262" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="347" parent="globals/TriPeaksView" pc="268448299" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="349" parent="globals/TriPeaksView" pc="268448330" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="351" parent="globals/TriPeaksView" pc="268448403" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="352" parent="globals/TriPeaksView" pc="268448423" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="354" parent="globals/TriPeaksView" pc="268448454" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="36" lineNum="356" parent="globals/TriPeaksView" pc="268448479" symbol="drawlabel"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="37" lineNum="311" parent="globals/TriPeaksView" pc="268448532" symbol="onTimer"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="37" lineNum="312" parent="globals/TriPeaksView" pc="268448534" symbol="onTimer"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="38" lineNum="79" parent="globals/DrawableMenuTitle" pc="268448551" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="39" lineNum="80" parent="globals/DrawableMenuTitle" pc="268448570" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="39" lineNum="81" parent="globals/DrawableMenuTitle" pc="268448572" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="84" parent="globals/DrawableMenuTitle" pc="268448597" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="85" parent="globals/DrawableMenuTitle" pc="268448601" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="86" parent="globals/DrawableMenuTitle" pc="268448614" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="87" parent="globals/DrawableMenuTitle" pc="268448627" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="88" parent="globals/DrawableMenuTitle" pc="268448649" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="89" parent="globals/DrawableMenuTitle" pc="268448661" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="90" parent="globals/DrawableMenuTitle" pc="268448683" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="91" parent="globals/DrawableMenuTitle" pc="268448735" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="92" parent="globals/DrawableMenuTitle" pc="268448787" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="93" parent="globals/DrawableMenuTitle" pc="268448809" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="94" parent="globals/DrawableMenuTitle" pc="268448867" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="95" parent="globals/DrawableMenuTitle" pc="268448889" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="96" parent="globals/DrawableMenuTitle" pc="268448947" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="97" parent="globals/DrawableMenuTitle" pc="268448969" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="40" lineNum="98" parent="globals/DrawableMenuTitle" pc="268448986" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="41" lineNum="73" parent="globals/CustomIcon" pc="268449022" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="42" lineNum="76" parent="globals/CustomIcon" pc="268449041" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="42" lineNum="77" parent="globals/CustomIcon" pc="268449043" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="42" lineNum="78" parent="globals/CustomIcon" pc="268449053" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="43" lineNum="81" parent="globals/CustomIcon" pc="268449078" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="43" lineNum="82" parent="globals/CustomIcon" pc="268449080" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="43" lineNum="83" parent="globals/CustomIcon" pc="268449102" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="629" parent="globals" pc="268449115" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="630" parent="globals" pc="268449127" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="631" parent="globals" pc="268449146" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="631" parent="globals" pc="268449157" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="632" parent="globals" pc="268449161" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="633" parent="globals" pc="268449242" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="44" lineNum="634" parent="globals" pc="268449273" symbol="deal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="45" lineNum="25" parent="globals" pc="268449284" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksApp.mc" id="45" lineNum="26" parent="globals" pc="268449294" symbol="getApp"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="42" parent="globals" pc="268449310" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="43" parent="globals" pc="268449322" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="43" parent="globals" pc="268449344" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="44" parent="globals" pc="268449348" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="45" parent="globals" pc="268449376" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="45" parent="globals" pc="268449389" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="47" parent="globals" pc="268449393" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="46" parent="globals" pc="268449393" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="48" parent="globals" pc="268449544" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="49" parent="globals" pc="268449551" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="50" parent="globals" pc="268449558" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="51" parent="globals" pc="268449588" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="51" parent="globals" pc="268449605" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="52" parent="globals" pc="268449621" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="54" parent="globals" pc="268449650" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="58" parent="globals" pc="268449737" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="59" parent="globals" pc="268449767" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="61" parent="globals" pc="268449836" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="46" lineNum="62" parent="globals" pc="268449881" symbol="showstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="612" parent="globals" pc="268449898" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="614" parent="globals" pc="268449910" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="613" parent="globals" pc="268449910" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="615" parent="globals" pc="268449926" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="616" parent="globals" pc="268449942" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="617" parent="globals" pc="268449972" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="618" parent="globals" pc="268449991" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="619" parent="globals" pc="268450024" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="620" parent="globals" pc="268450070" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="621" parent="globals" pc="268450116" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="622" parent="globals" pc="268450135" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="47" lineNum="623" parent="globals" pc="268450154" symbol="flipcards"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="48" lineNum="7" parent="globals/Rez" pc="268450187" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="6" parent="globals" pc="268450211" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="11" parent="globals" pc="268450223" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="12" parent="globals" pc="268450237" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="13" parent="globals" pc="268450251" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="15" parent="globals" pc="268450285" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="16" parent="globals" pc="268450303" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="17" parent="globals" pc="268450354" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="18" parent="globals" pc="268450405" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="20" parent="globals" pc="268450449" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="22" parent="globals" pc="268450483" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="23" parent="globals" pc="268450501" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="24" parent="globals" pc="268450530" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="25" parent="globals" pc="268450559" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="27" parent="globals" pc="268450603" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="29" parent="globals" pc="268450637" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="30" parent="globals" pc="268450659" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="31" parent="globals" pc="268450681" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="32" parent="globals" pc="268450703" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="33" parent="globals" pc="268450725" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="34" parent="globals" pc="268450747" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="35" parent="globals" pc="268450769" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="36" parent="globals" pc="268450791" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="37" parent="globals" pc="268450813" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="39" parent="globals" pc="268450835" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="40" parent="globals" pc="268450857" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="41" parent="globals" pc="268450879" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="42" parent="globals" pc="268450901" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="43" parent="globals" pc="268450923" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="44" parent="globals" pc="268450945" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="45" parent="globals" pc="268450967" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="46" parent="globals" pc="268450989" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="47" parent="globals" pc="268451011" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="49" parent="globals" pc="268451033" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="50" parent="globals" pc="268451055" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="51" parent="globals" pc="268451077" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="52" parent="globals" pc="268451099" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="53" parent="globals" pc="268451121" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="54" parent="globals" pc="268451143" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="55" parent="globals" pc="268451165" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="56" parent="globals" pc="268451187" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="57" parent="globals" pc="268451209" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="58" parent="globals" pc="268451234" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="60" parent="globals" pc="268451268" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="61" parent="globals" pc="268451286" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="62" parent="globals" pc="268451304" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="65" parent="globals" pc="268451346" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="66" parent="globals" pc="268451364" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="67" parent="globals" pc="268451382" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="68" parent="globals" pc="268451398" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="69" parent="globals" pc="268451420" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="72" parent="globals" pc="268451471" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="74" parent="globals" pc="268451505" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="75" parent="globals" pc="268451527" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="76" parent="globals" pc="268451549" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="77" parent="globals" pc="268451571" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="78" parent="globals" pc="268451593" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="80" parent="globals" pc="268451615" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="81" parent="globals" pc="268451637" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="82" parent="globals" pc="268451659" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="83" parent="globals" pc="268451681" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="85" parent="globals" pc="268451703" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="86" parent="globals" pc="268451725" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="87" parent="globals" pc="268451747" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="88" parent="globals" pc="268451769" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="89" parent="globals" pc="268451791" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="91" parent="globals" pc="268451813" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="92" parent="globals" pc="268451835" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="93" parent="globals" pc="268451857" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="94" parent="globals" pc="268451879" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="96" parent="globals" pc="268451901" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="97" parent="globals" pc="268451923" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="99" parent="globals" pc="268451945" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="100" parent="globals" pc="268451967" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="101" parent="globals" pc="268451989" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="102" parent="globals" pc="268452014" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="105" parent="globals" pc="268452048" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="106" parent="globals" pc="268452070" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="107" parent="globals" pc="268452092" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="108" parent="globals" pc="268452114" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="109" parent="globals" pc="268452136" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="110" parent="globals" pc="268452158" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="111" parent="globals" pc="268452180" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="112" parent="globals" pc="268452202" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="113" parent="globals" pc="268452224" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="114" parent="globals" pc="268452246" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="115" parent="globals" pc="268452268" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="116" parent="globals" pc="268452290" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="117" parent="globals" pc="268452312" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="120" parent="globals" pc="268452334" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="121" parent="globals" pc="268452356" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="122" parent="globals" pc="268452378" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="123" parent="globals" pc="268452400" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="124" parent="globals" pc="268452422" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="125" parent="globals" pc="268452444" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="126" parent="globals" pc="268452466" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="129" parent="globals" pc="268452488" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="130" parent="globals" pc="268452510" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="131" parent="globals" pc="268452532" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="132" parent="globals" pc="268452554" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="133" parent="globals" pc="268452576" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="134" parent="globals" pc="268452598" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="135" parent="globals" pc="268452620" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="136" parent="globals" pc="268452645" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="138" parent="globals" pc="268452679" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="139" parent="globals" pc="268452701" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="140" parent="globals" pc="268452723" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="141" parent="globals" pc="268452745" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="142" parent="globals" pc="268452767" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="143" parent="globals" pc="268452859" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="144" parent="globals" pc="268452877" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="145" parent="globals" pc="268452901" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="148" parent="globals" pc="268452964" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="152" parent="globals" pc="268452998" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="153" parent="globals" pc="268453020" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="154" parent="globals" pc="268453042" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="155" parent="globals" pc="268453064" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="156" parent="globals" pc="268453086" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="159" parent="globals" pc="268453108" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="160" parent="globals" pc="268453130" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="161" parent="globals" pc="268453152" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="164" parent="globals" pc="268453174" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="165" parent="globals" pc="268453196" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="166" parent="globals" pc="268453218" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="169" parent="globals" pc="268453240" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="170" parent="globals" pc="268453262" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="171" parent="globals" pc="268453284" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="172" parent="globals" pc="268453306" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="173" parent="globals" pc="268453328" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="174" parent="globals" pc="268453350" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="177" parent="globals" pc="268453372" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="178" parent="globals" pc="268453394" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="179" parent="globals" pc="268453416" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="180" parent="globals" pc="268453438" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="181" parent="globals" pc="268453460" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="182" parent="globals" pc="268453482" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="185" parent="globals" pc="268453504" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="186" parent="globals" pc="268453526" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="187" parent="globals" pc="268453551" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="189" parent="globals" pc="268453585" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="190" parent="globals" pc="268453603" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="191" parent="globals" pc="268453621" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="194" parent="globals" pc="268453663" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="195" parent="globals" pc="268453681" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="196" parent="globals" pc="268453699" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="199" parent="globals" pc="268453741" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="200" parent="globals" pc="268453759" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="201" parent="globals" pc="268453777" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="204" parent="globals" pc="268453822" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="206" parent="globals" pc="268453856" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="207" parent="globals" pc="268453942" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="208" parent="globals" pc="268453960" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="209" parent="globals" pc="268453989" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="210" parent="globals" pc="268454018" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="211" parent="globals" pc="268454037" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="212" parent="globals" pc="268454059" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="215" parent="globals" pc="268454091" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="216" parent="globals" pc="268454112" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="218" parent="globals" pc="268454147" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="219" parent="globals" pc="268454168" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="221" parent="globals" pc="268454203" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="222" parent="globals" pc="268454224" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="224" parent="globals" pc="268454259" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="225" parent="globals" pc="268454280" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="227" parent="globals" pc="268454315" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="228" parent="globals" pc="268454336" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="230" parent="globals" pc="268454371" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="231" parent="globals" pc="268454392" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="233" parent="globals" pc="268454430" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="236" parent="globals" pc="268454464" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="237" parent="globals" pc="268454482" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="238" parent="globals" pc="268454501" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="241" parent="globals" pc="268454533" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="242" parent="globals" pc="268454551" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="243" parent="globals" pc="268454570" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="247" parent="globals" pc="268454602" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="248" parent="globals" pc="268454624" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="249" parent="globals" pc="268454646" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="250" parent="globals" pc="268454668" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="251" parent="globals" pc="268454690" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="252" parent="globals" pc="268454712" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="253" parent="globals" pc="268454734" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="254" parent="globals" pc="268454756" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="255" parent="globals" pc="268454781" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="258" parent="globals" pc="268454815" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="259" parent="globals" pc="268454837" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="260" parent="globals" pc="268454859" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="261" parent="globals" pc="268454881" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="264" parent="globals" pc="268454903" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="265" parent="globals" pc="268454925" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="266" parent="globals" pc="268454947" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="267" parent="globals" pc="268454969" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="270" parent="globals" pc="268454991" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="271" parent="globals" pc="268455013" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="272" parent="globals" pc="268455035" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="275" parent="globals" pc="268455057" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="276" parent="globals" pc="268455079" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="277" parent="globals" pc="268455101" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="280" parent="globals" pc="268455123" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="281" parent="globals" pc="268455145" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="282" parent="globals" pc="268455167" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="283" parent="globals" pc="268455189" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="284" parent="globals" pc="268455211" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="288" parent="globals" pc="268455233" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="289" parent="globals" pc="268455255" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="290" parent="globals" pc="268455277" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="291" parent="globals" pc="268455299" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="292" parent="globals" pc="268455321" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="49" lineNum="293" parent="globals" pc="268455343" symbol="getlayout"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="548" parent="globals" pc="268455369" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="549" parent="globals" pc="268455381" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="550" parent="globals" pc="268455408" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="551" parent="globals" pc="268455408" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="552" parent="globals" pc="268455434" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="553" parent="globals" pc="268455441" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="554" parent="globals" pc="268455467" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="555" parent="globals" pc="268455471" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="556" parent="globals" pc="268455498" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="557" parent="globals" pc="268455528" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="558" parent="globals" pc="268455548" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="559" parent="globals" pc="268455602" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="560" parent="globals" pc="268455639" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="561" parent="globals" pc="268455643" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="565" parent="globals" pc="268455668" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="566" parent="globals" pc="268455672" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="567" parent="globals" pc="268455677" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="567" parent="globals" pc="268455703" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="568" parent="globals" pc="268455719" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="572" parent="globals" pc="268455738" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="50" lineNum="581" parent="globals" pc="268455861" symbol="savegame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="530" parent="globals" pc="268455891" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="531" parent="globals" pc="268455903" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="532" parent="globals" pc="268455916" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="536" parent="globals" pc="268456606" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="537" parent="globals" pc="268456624" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="538" parent="globals" pc="268456653" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="539" parent="globals" pc="268456682" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="540" parent="globals" pc="268456707" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="541" parent="globals" pc="268456741" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="543" parent="globals" pc="268456779" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="544" parent="globals" pc="268456793" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="51" lineNum="545" parent="globals" pc="268456807" symbol="newgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="52" lineNum="297" parent="globals" pc="268456820" symbol="addcard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="52" lineNum="298" parent="globals" pc="268456830" symbol="addcard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksLayouts.mc" id="52" lineNum="299" parent="globals" pc="268456904" symbol="addcard"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="53" lineNum="65" parent="globals/TriPeaksStatsDelegate" pc="268456952" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="54" lineNum="74" parent="globals/TriPeaksStatsDelegate" pc="268456971" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="54" lineNum="75" parent="globals/TriPeaksStatsDelegate" pc="268456973" symbol="onBack"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="55" lineNum="66" parent="globals/TriPeaksStatsDelegate" pc="268456995" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="55" lineNum="67" parent="globals/TriPeaksStatsDelegate" pc="268456997" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="56" lineNum="70" parent="globals/TriPeaksStatsDelegate" pc="268457016" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="56" lineNum="71" parent="globals/TriPeaksStatsDelegate" pc="268457018" symbol="onSelect"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="658" parent="globals" pc="268457019" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="659" parent="globals" pc="268457031" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="660" parent="globals" pc="268457041" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="661" parent="globals" pc="268457051" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="662" parent="globals" pc="268457061" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="663" parent="globals" pc="268457071" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="664" parent="globals" pc="268457079" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="665" parent="globals" pc="268457086" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="666" parent="globals" pc="268457103" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="667" parent="globals" pc="268457113" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="668" parent="globals" pc="268457130" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="669" parent="globals" pc="268457140" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="670" parent="globals" pc="268457157" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="672" parent="globals" pc="268457167" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="673" parent="globals" pc="268457182" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="57" lineNum="675" parent="globals" pc="268457269" symbol="calcpath"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="58" lineNum="102" parent="globals/CustomItem" pc="268457272" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="109" parent="globals/CustomItem" pc="268457291" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="110" parent="globals/CustomItem" pc="268457293" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="111" parent="globals/CustomItem" pc="268457319" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="112" parent="globals/CustomItem" pc="268457329" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="113" parent="globals/CustomItem" pc="268457339" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="114" parent="globals/CustomItem" pc="268457349" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="59" lineNum="115" parent="globals/CustomItem" pc="268457359" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="118" parent="globals/CustomItem" pc="268457370" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="120" parent="globals/CustomItem" pc="268457374" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="121" parent="globals/CustomItem" pc="268457387" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="122" parent="globals/CustomItem" pc="268457400" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="123" parent="globals/CustomItem" pc="268457410" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="124" parent="globals/CustomItem" pc="268457426" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="125" parent="globals/CustomItem" pc="268457430" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="126" parent="globals/CustomItem" pc="268457449" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="127" parent="globals/CustomItem" pc="268457456" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="128" parent="globals/CustomItem" pc="268457496" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="129" parent="globals/CustomItem" pc="268457536" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="130" parent="globals/CustomItem" pc="268457558" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="131" parent="globals/CustomItem" pc="268457580" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="132" parent="globals/CustomItem" pc="268457615" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="132" parent="globals/CustomItem" pc="268457632" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="133" parent="globals/CustomItem" pc="268457657" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="134" parent="globals/CustomItem" pc="268457679" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="135" parent="globals/CustomItem" pc="268457719" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="136" parent="globals/CustomItem" pc="268457741" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="137" parent="globals/CustomItem" pc="268457781" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="60" lineNum="138" parent="globals/CustomItem" pc="268457803" symbol="draw"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="584" parent="globals" pc="268457844" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="585" parent="globals" pc="268457854" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="587" parent="globals" pc="268457882" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="588" parent="globals" pc="268457895" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="589" parent="globals" pc="268457908" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="591" parent="globals" pc="268457923" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="592" parent="globals" pc="268457953" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="593" parent="globals" pc="268457983" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="594" parent="globals" pc="268458013" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="595" parent="globals" pc="268458043" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="61" lineNum="596" parent="globals" pc="268458073" symbol="loadgame"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="678" parent="globals" pc="268458104" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="680" parent="globals" pc="268458114" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="681" parent="globals" pc="268458135" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="682" parent="globals" pc="268458155" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="683" parent="globals" pc="268458175" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="684" parent="globals" pc="268458195" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="685" parent="globals" pc="268458215" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="686" parent="globals" pc="268458235" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="687" parent="globals" pc="268458255" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="688" parent="globals" pc="268458275" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="689" parent="globals" pc="268458295" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="690" parent="globals" pc="268458315" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="691" parent="globals" pc="268458335" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="692" parent="globals" pc="268458355" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="693" parent="globals" pc="268458375" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="681" parent="globals" pc="268458398" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="682" parent="globals" pc="268458404" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="683" parent="globals" pc="268458410" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="684" parent="globals" pc="268458416" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="685" parent="globals" pc="268458422" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="686" parent="globals" pc="268458428" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="687" parent="globals" pc="268458434" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="688" parent="globals" pc="268458440" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="689" parent="globals" pc="268458446" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="690" parent="globals" pc="268458452" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="691" parent="globals" pc="268458458" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="692" parent="globals" pc="268458464" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="693" parent="globals" pc="268458470" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="62" lineNum="695" parent="globals" pc="268458477" symbol="value"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="599" parent="globals" pc="268458483" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="600" parent="globals" pc="268458495" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="601" parent="globals" pc="268458509" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="602" parent="globals" pc="268458534" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="603" parent="globals" pc="268458555" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="605" parent="globals" pc="268458621" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="606" parent="globals" pc="268458661" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="607" parent="globals" pc="268458670" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="608" parent="globals" pc="268458682" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksView.mc" id="63" lineNum="609" parent="globals" pc="268458694" symbol="firstdeal"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="64" lineNum="52" parent="globals/TriPeaksSettings" pc="268458707" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="53" parent="globals/TriPeaksSettings" pc="268458726" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="54" parent="globals/TriPeaksSettings" pc="268458730" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="55" parent="globals/TriPeaksSettings" pc="268458749" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="57" parent="globals/TriPeaksSettings" pc="268458772" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="58" parent="globals/TriPeaksSettings" pc="268458808" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="59" parent="globals/TriPeaksSettings" pc="268458844" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="60" parent="globals/TriPeaksSettings" pc="268458880" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="61" parent="globals/TriPeaksSettings" pc="268458916" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="62" parent="globals/TriPeaksSettings" pc="268458952" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="64" parent="globals/TriPeaksSettings" pc="268458985" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="65" parent="globals/TriPeaksSettings" pc="268459059" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="66" parent="globals/TriPeaksSettings" pc="268459133" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="67" parent="globals/TriPeaksSettings" pc="268459207" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="68" parent="globals/TriPeaksSettings" pc="268459281" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksSettings.mc" id="65" lineNum="69" parent="globals/TriPeaksSettings" pc="268459355" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="8" parent="globals" pc="268459418" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="9" parent="globals" pc="268459428" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="10" parent="globals" pc="268459440" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="12" parent="globals" pc="268459468" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="14" parent="globals" pc="268459481" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="16" parent="globals" pc="268459641" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="17" parent="globals" pc="268459667" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="18" parent="globals" pc="268459695" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="19" parent="globals" pc="268459721" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="20" parent="globals" pc="268459749" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="21" parent="globals" pc="268459775" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="22" parent="globals" pc="268459803" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="23" parent="globals" pc="268459829" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="24" parent="globals" pc="268459857" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="25" parent="globals" pc="268459883" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="26" parent="globals" pc="268459911" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="27" parent="globals" pc="268459937" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="28" parent="globals" pc="268459965" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="29" parent="globals" pc="268459991" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="30" parent="globals" pc="268460019" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="31" parent="globals" pc="268460045" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="32" parent="globals" pc="268460073" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="33" parent="globals" pc="268460099" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="34" parent="globals" pc="268460127" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="35" parent="globals" pc="268460153" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="37" parent="globals" pc="268460181" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\source\\TriPeaksStats.mc" id="66" lineNum="39" parent="globals" pc="268460206" symbol="addstats"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="67" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268460236" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="68" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268460255" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="68" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268460257" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="68" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268460275" symbol="initialize"/>
+<entry filename="C:\\Garmin\\Projects\\TriPeaks\\bin\\gen\\006-B4260-00\\source\\Rez.mcgen" id="68" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268460331" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="77" symbol="resultXY"/>
+<entry field="true" id="71" symbol="newcolor"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="84" symbol="shadowcolor"/>
+<entry field="true" id="99" symbol="suitcolors"/>
+<entry id="119" method="true" symbol="drawplate"/>
+<entry field="true" id="59" symbol="gridXY"/>
+<entry field="true" id="70" symbol="newXY"/>
+<entry field="true" id="58" symbol="gridWH"/>
+<entry field="true" id="61" symbol="layout"/>
+<entry field="true" id="69" symbol="newWH"/>
+<entry id="37" method="true" symbol="calcpath"/>
+<entry field="true" id="125" symbol="&lt;globals/CustomItem/&lt;&gt;_id&gt;"/>
+<entry id="85" method="true" symbol="showstats"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="82" symbol="selXY"/>
+<entry field="true" id="75" symbol="path"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="81" symbol="selWH"/>
+<entry field="true" id="25" symbol="backcolor"/>
+<entry id="20" object="true" symbol="TriPeaksView"/>
+<entry field="true" id="103" symbol="timer"/>
+<entry id="17" object="true" symbol="TriPeaksMenuDelegate"/>
+<entry id="9" object="true" symbol="CustomIcon"/>
+<entry field="true" id="38" symbol="card"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry field="true" id="28" symbol="bgXY"/>
+<entry field="true" id="8391941" symbol="theme"/>
+<entry field="true" id="76" symbol="platecolor"/>
+<entry id="65" method="true" symbol="loadgame"/>
+<entry field="true" id="27" symbol="bgWH"/>
+<entry id="117" method="true" symbol="drawcard2"/>
+<entry field="true" id="124" symbol="&lt;globals/CustomItem/&lt;&gt;_count&gt;"/>
+<entry id="114" method="true" symbol="drawboard"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="18" object="true" symbol="TriPeaksSettings"/>
+<entry field="true" id="80" symbol="scolors"/>
+<entry id="115" method="true" symbol="drawbutton"/>
+<entry field="true" id="23" symbol="animation"/>
+<entry id="113" method="true" symbol="inbox"/>
+<entry field="true" id="134" symbol="suits40"/>
+<entry field="true" id="133" symbol="suits35"/>
+<entry field="true" id="132" symbol="suits30"/>
+<entry field="true" id="131" symbol="suits20"/>
+<entry field="true" id="135" symbol="AppName"/>
+<entry field="true" id="51" symbol="deckposs"/>
+<entry field="true" id="60" symbol="lastgame"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="106" symbol="tmp"/>
+<entry field="true" id="8388947" method="true" symbol="value"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="22" method="true" symbol="addstats"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="138" symbol="prompt"/>
+<entry field="true" id="110" symbol="valcolor"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="79" method="true" symbol="savegame"/>
+<entry field="true" id="8392172" method="true" symbol="scale"/>
+<entry id="21" method="true" symbol="addcard"/>
+<entry field="true" id="67" symbol="moving"/>
+<entry field="true" id="42" symbol="center"/>
+<entry field="true" id="87" symbol="so"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8390727" object="true" symbol="CustomMenu"/>
+<entry id="140" symbol="item_2"/>
+<entry id="139" symbol="item_1"/>
+<entry id="123" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="31" symbol="bigfont"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="101" symbol="themeXY"/>
+<entry field="true" id="50" symbol="deckpos"/>
+<entry field="true" id="100" symbol="themeWH"/>
+<entry field="true" id="88" symbol="soh"/>
+<entry field="true" id="63" symbol="layouts"/>
+<entry id="8391298" method="true" symbol="play"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="24" symbol="animations"/>
+<entry field="true" id="126" symbol="&lt;globals/CustomItem/&lt;&gt;_label&gt;"/>
+<entry id="16" object="true" symbol="TriPeaksDelegate"/>
+<entry field="true" id="102" symbol="themes"/>
+<entry field="true" id="128" symbol="&lt;globals/CustomItem/&lt;&gt;_total&gt;"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry field="true" id="89" symbol="solid"/>
+<entry field="true" id="29" symbol="bgcolor"/>
+<entry field="true" id="105" symbol="titlecolor"/>
+<entry id="10" object="true" symbol="CustomItem"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="8389892" symbol="background"/>
+<entry field="true" id="26" symbol="backgrounds"/>
+<entry id="72" method="true" symbol="newgame"/>
+<entry field="true" id="56" symbol="gamehist"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="30" symbol="bgcolors"/>
+<entry field="true" id="49" symbol="deckcolor"/>
+<entry id="130" object="true" symbol="MainMenu"/>
+<entry field="true" id="14" symbol="SW"/>
+<entry field="true" id="13" symbol="SH"/>
+<entry field="true" id="33" symbol="boardXY"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="15" object="true" symbol="TriPeaksApp"/>
+<entry id="118" method="true" symbol="drawlabel"/>
+<entry field="true" id="121" symbol="&lt;globals/CustomIcon/&lt;&gt;_index&gt;"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="11" symbol="DS"/>
+<entry field="true" id="35" symbol="buttoncolor"/>
+<entry field="true" id="83" symbol="shadow"/>
+<entry id="54" method="true" symbol="flipcards"/>
+<entry field="true" id="92" symbol="startcolor"/>
+<entry field="true" id="127" symbol="&lt;globals/CustomItem/&lt;&gt;_max&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="66" symbol="losecolor"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="78" symbol="right"/>
+<entry field="true" id="129" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="36" symbol="buttonfont"/>
+<entry field="true" id="112" symbol="zooming"/>
+<entry field="true" id="47" symbol="deck"/>
+<entry id="46" method="true" symbol="deal"/>
+<entry id="116" method="true" symbol="drawcard"/>
+<entry id="52" method="true" symbol="deepcopy"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="91" symbol="startXY"/>
+<entry field="true" id="55" symbol="game"/>
+<entry id="19" object="true" symbol="TriPeaksStatsDelegate"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="90" symbol="startWH"/>
+<entry field="true" id="44" symbol="centerY"/>
+<entry field="true" id="43" symbol="centerX"/>
+<entry field="true" id="104" symbol="titleXY"/>
+<entry field="true" id="48" symbol="deckXY"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="57" method="true" symbol="getlayout"/>
+<entry id="8391796" symbol="titleItemHeight"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="62" symbol="layoutnameXY"/>
+<entry field="true" id="111" symbol="wincolor"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="97" symbol="suitH"/>
+<entry field="true" id="96" symbol="suitF"/>
+<entry field="true" id="95" symbol="suitD"/>
+<entry field="true" id="94" symbol="suitA"/>
+<entry field="true" id="73" symbol="nopecolor"/>
+<entry field="true" id="109" symbol="tmp4"/>
+<entry field="true" id="108" symbol="tmp3"/>
+<entry field="true" id="107" symbol="tmp2"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="53" method="true" symbol="firstdeal"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="98" symbol="suitcolor"/>
+<entry id="12" object="true" symbol="DrawableMenuTitle"/>
+<entry field="true" id="86" symbol="smallfont"/>
+<entry field="true" id="39" symbol="cardR"/>
+<entry field="true" id="32" symbol="board"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="122" module="true" symbol="Layouts"/>
+<entry field="true" id="93" symbol="stats"/>
+<entry field="true" id="8389487" symbol="state"/>
+<entry field="true" id="64" symbol="left"/>
+<entry field="true" id="74" symbol="ocolors"/>
+<entry field="true" id="41" symbol="cardXY"/>
+<entry field="true" id="40" symbol="cardWH"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="68" symbol="mydc"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="34" symbol="buttonR"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+<entry id="120" method="true" symbol="onTimer"/>
+<entry id="45" method="true" symbol="commas"/>
+<entry field="true" id="137" symbol="menu_label_2"/>
+<entry field="true" id="136" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436530" name="s" stackId="1" startPc="268436073"/>
+<entry endPc="268436530" name="a" stackId="2" startPc="268436085"/>
+<entry endPc="268436530" name="b" stackId="3" startPc="268436085"/>
+<entry endPc="268436497" name="i" stackId="4" startPc="268436428"/>
+<entry arg="true" endPc="268436752" name="whole" stackId="1" startPc="268436531"/>
+<entry endPc="268436752" name="digits" stackId="2" startPc="268436543"/>
+<entry endPc="268436752" name="count" stackId="3" startPc="268436543"/>
+<entry endPc="268436679" name="digit" stackId="4" startPc="268436589"/>
+<entry endPc="268436749" name="i" stackId="5" startPc="268436727"/>
+<entry arg="true" endPc="268438483" name="clickEvent" stackId="1" startPc="268436871"/>
+<entry endPc="268438483" name="xy" stackId="2" startPc="268436875"/>
+<entry endPc="268437846" name="i" stackId="3" startPc="268437811"/>
+<entry endPc="268438141" name="i" stackId="4" startPc="268437924"/>
+<entry arg="true" endPc="268438638" name="point" stackId="1" startPc="268438484"/>
+<entry arg="true" endPc="268438638" name="boxxy" stackId="2" startPc="268438484"/>
+<entry arg="true" endPc="268438638" name="boxwh" stackId="3" startPc="268438484"/>
+<entry endPc="268438638" name="bx" stackId="4" startPc="268438488"/>
+<entry endPc="268438638" name="by" stackId="5" startPc="268438488"/>
+<entry arg="true" endPc="268439170" name="input" stackId="1" startPc="268438762"/>
+<entry endPc="268439170" name="result" stackId="2" startPc="268438774"/>
+<entry endPc="268438907" name="i" stackId="3" startPc="268438874"/>
+<entry endPc="268439051" name="keys" stackId="4" startPc="268438929"/>
+<entry endPc="268439051" name="vals" stackId="5" startPc="268438929"/>
+<entry endPc="268439051" name="i" stackId="6" startPc="268438987"/>
+<entry endPc="268439038" name="key_copy" stackId="7" startPc="268438987"/>
+<entry endPc="268439038" name="val_copy" stackId="8" startPc="268438987"/>
+<entry arg="true" endPc="268439892" name="item" stackId="1" startPc="268439235"/>
+<entry arg="true" endPc="268441669" name="xy" stackId="1" startPc="268439912"/>
+<entry arg="true" endPc="268441669" name="wh" stackId="2" startPc="268439912"/>
+<entry arg="true" endPc="268441669" name="card" stackId="3" startPc="268439912"/>
+<entry endPc="268441668" name="sh" stackId="4" startPc="268439916"/>
+<entry endPc="268441668" name="w" stackId="5" startPc="268439916"/>
+<entry endPc="268441668" name="h" stackId="6" startPc="268439916"/>
+<entry endPc="268441668" name="x" stackId="7" startPc="268439916"/>
+<entry endPc="268441668" name="y" stackId="8" startPc="268439916"/>
+<entry endPc="268441668" name="fc" stackId="9" startPc="268439916"/>
+<entry endPc="268441668" name="tc" stackId="10" startPc="268439916"/>
+<entry endPc="268441668" name="l1" stackId="11" startPc="268439916"/>
+<entry endPc="268441668" name="l2" stackId="12" startPc="268439916"/>
+<entry endPc="268441668" name="other" stackId="13" startPc="268439916"/>
+<entry endPc="268441668" name="rev" stackId="14" startPc="268441264"/>
+<entry arg="true" endPc="268442462" name="xy" stackId="1" startPc="268441670"/>
+<entry arg="true" endPc="268442462" name="wh" stackId="2" startPc="268441670"/>
+<entry arg="true" endPc="268442462" name="text" stackId="3" startPc="268441670"/>
+<entry arg="true" endPc="268442462" name="col" stackId="4" startPc="268441670"/>
+<entry arg="true" endPc="268442462" name="valid" stackId="5" startPc="268441670"/>
+<entry endPc="268442461" name="x" stackId="6" startPc="268441674"/>
+<entry endPc="268442461" name="y" stackId="7" startPc="268441674"/>
+<entry endPc="268442461" name="w" stackId="8" startPc="268441674"/>
+<entry endPc="268442461" name="h" stackId="9" startPc="268441674"/>
+<entry arg="true" endPc="268442901" name="scale" stackId="1" startPc="268442463"/>
+<entry endPc="268442900" name="x" stackId="2" startPc="268442467"/>
+<entry endPc="268442900" name="y" stackId="3" startPc="268442467"/>
+<entry endPc="268442900" name="w" stackId="4" startPc="268442467"/>
+<entry endPc="268442900" name="h" stackId="5" startPc="268442467"/>
+<entry endPc="268442900" name="ox" stackId="6" startPc="268442467"/>
+<entry endPc="268442900" name="oy" stackId="7" startPc="268442467"/>
+<entry endPc="268442900" name="i" stackId="8" startPc="268442595"/>
+<entry arg="true" endPc="268444575" name="dc" stackId="1" startPc="268442902"/>
+<entry arg="true" endPc="268445056" name="xy" stackId="1" startPc="268444576"/>
+<entry endPc="268445055" name="extra" stackId="2" startPc="268444580"/>
+<entry endPc="268445055" name="x" stackId="3" startPc="268444580"/>
+<entry endPc="268445055" name="y" stackId="4" startPc="268444580"/>
+<entry endPc="268445055" name="w" stackId="5" startPc="268444580"/>
+<entry endPc="268445055" name="h" stackId="6" startPc="268444580"/>
+<entry endPc="268445055" name="r" stackId="7" startPc="268444580"/>
+<entry arg="true" endPc="268445083" name="xy" stackId="1" startPc="268445057"/>
+<entry arg="true" endPc="268445083" name="card" stackId="2" startPc="268445057"/>
+<entry arg="true" endPc="268448203" name="dc" stackId="1" startPc="268445084"/>
+<entry endPc="268448199" name="lastmove" stackId="2" startPc="268447761"/>
+<entry endPc="268448027" name="i" stackId="3" startPc="268447795"/>
+<entry arg="true" endPc="268448531" name="xy" stackId="1" startPc="268448204"/>
+<entry arg="true" endPc="268448531" name="text" stackId="2" startPc="268448204"/>
+<entry arg="true" endPc="268448531" name="col" stackId="3" startPc="268448204"/>
+<entry arg="true" endPc="268448531" name="big" stackId="4" startPc="268448204"/>
+<entry arg="true" endPc="268448531" name="bg" stackId="5" startPc="268448204"/>
+<entry arg="true" endPc="268449021" name="dc" stackId="1" startPc="268448597"/>
+<entry endPc="268449020" name="w" stackId="2" startPc="268448601"/>
+<entry endPc="268449020" name="h" stackId="3" startPc="268448601"/>
+<entry arg="true" endPc="268449077" name="index" stackId="1" startPc="268449041"/>
+<entry arg="true" endPc="268449114" name="dc" stackId="1" startPc="268449078"/>
+<entry endPc="268449282" name="tmp" stackId="1" startPc="268449127"/>
+<entry endPc="268449896" name="menu" stackId="1" startPc="268449322"/>
+<entry endPc="268449896" name="labels" stackId="2" startPc="268449322"/>
+<entry endPc="268449896" name="total" stackId="3" startPc="268449322"/>
+<entry endPc="268449896" name="max" stackId="4" startPc="268449322"/>
+<entry endPc="268449649" name="i" stackId="5" startPc="268449588"/>
+<entry endPc="268449835" name="i" stackId="6" startPc="268449767"/>
+<entry endPc="268450185" name="free" stackId="1" startPc="268449910"/>
+<entry endPc="268450185" name="x" stackId="2" startPc="268449910"/>
+<entry endPc="268450185" name="y" stackId="3" startPc="268449910"/>
+<entry endPc="268450185" name="w" stackId="4" startPc="268449910"/>
+<entry endPc="268450185" name="h" stackId="5" startPc="268449910"/>
+<entry endPc="268450185" name="i" stackId="6" startPc="268449972"/>
+<entry endPc="268450172" name="j" stackId="7" startPc="268450024"/>
+<entry endPc="268450445" name="i" stackId="1" startPc="268450303"/>
+<entry endPc="268450599" name="i" stackId="2" startPc="268450501"/>
+<entry endPc="268451345" name="x" stackId="3" startPc="268451286"/>
+<entry endPc="268451332" name="y" stackId="4" startPc="268451304"/>
+<entry endPc="268451467" name="x" stackId="5" startPc="268451364"/>
+<entry endPc="268451454" name="y" stackId="6" startPc="268451382"/>
+<entry endPc="268452960" name="i" stackId="7" startPc="268452877"/>
+<entry endPc="268452947" name="j" stackId="8" startPc="268452901"/>
+<entry endPc="268453662" name="x" stackId="9" startPc="268453603"/>
+<entry endPc="268453649" name="y" stackId="10" startPc="268453621"/>
+<entry endPc="268453740" name="x" stackId="11" startPc="268453681"/>
+<entry endPc="268453727" name="y" stackId="12" startPc="268453699"/>
+<entry endPc="268453818" name="x" stackId="13" startPc="268453759"/>
+<entry endPc="268453805" name="y" stackId="14" startPc="268453777"/>
+<entry endPc="268454426" name="h" stackId="15" startPc="268453856"/>
+<entry endPc="268454090" name="i" stackId="16" startPc="268453960"/>
+<entry endPc="268454146" name="i" stackId="17" startPc="268454112"/>
+<entry endPc="268454202" name="i" stackId="18" startPc="268454168"/>
+<entry endPc="268454258" name="i" stackId="19" startPc="268454224"/>
+<entry endPc="268454314" name="i" stackId="20" startPc="268454280"/>
+<entry endPc="268454370" name="i" stackId="21" startPc="268454336"/>
+<entry endPc="268454426" name="i" stackId="22" startPc="268454392"/>
+<entry endPc="268454532" name="y" stackId="23" startPc="268454482"/>
+<entry endPc="268454601" name="y" stackId="24" startPc="268454551"/>
+<entry endPc="268455734" name="done" stackId="1" startPc="268455408"/>
+<entry endPc="268455664" name="i" stackId="2" startPc="268455528"/>
+<entry endPc="268456778" name="i" stackId="1" startPc="268456624"/>
+<entry arg="true" endPc="268456951" name="x" stackId="1" startPc="268456820"/>
+<entry arg="true" endPc="268456951" name="y" stackId="2" startPc="268456820"/>
+<entry arg="true" endPc="268457018" name="item" stackId="1" startPc="268457016"/>
+<entry arg="true" endPc="268457271" name="xy1" stackId="1" startPc="268457019"/>
+<entry arg="true" endPc="268457271" name="xy2" stackId="2" startPc="268457019"/>
+<entry endPc="268457271" name="x1" stackId="3" startPc="268457031"/>
+<entry endPc="268457271" name="y1" stackId="4" startPc="268457031"/>
+<entry endPc="268457271" name="x2" stackId="5" startPc="268457031"/>
+<entry endPc="268457271" name="y2" stackId="6" startPc="268457031"/>
+<entry endPc="268457271" name="a" stackId="7" startPc="268457031"/>
+<entry endPc="268457271" name="cells" stackId="8" startPc="268457031"/>
+<entry endPc="268457268" name="cell" stackId="9" startPc="268457182"/>
+<entry arg="true" endPc="268457369" name="id" stackId="1" startPc="268457291"/>
+<entry arg="true" endPc="268457369" name="label" stackId="2" startPc="268457291"/>
+<entry arg="true" endPc="268457369" name="count" stackId="3" startPc="268457291"/>
+<entry arg="true" endPc="268457369" name="total" stackId="4" startPc="268457291"/>
+<entry arg="true" endPc="268457369" name="max" stackId="5" startPc="268457291"/>
+<entry arg="true" endPc="268457843" name="dc" stackId="1" startPc="268457370"/>
+<entry endPc="268457842" name="w" stackId="2" startPc="268457374"/>
+<entry endPc="268457842" name="h" stackId="3" startPc="268457374"/>
+<entry endPc="268457842" name="bx" stackId="4" startPc="268457374"/>
+<entry endPc="268457842" name="bw" stackId="5" startPc="268457374"/>
+<entry endPc="268457842" name="lx" stackId="6" startPc="268457374"/>
+<entry endPc="268457842" name="cx" stackId="7" startPc="268457374"/>
+<entry endPc="268457842" name="px" stackId="8" startPc="268457374"/>
+<entry endPc="268457842" name="pct" stackId="9" startPc="268457374"/>
+<entry endPc="268457842" name="mpct" stackId="10" startPc="268457374"/>
+<entry arg="true" endPc="268458482" name="c" stackId="1" startPc="268458104"/>
+<entry endPc="268458620" name="i" stackId="1" startPc="268458555"/>
+<entry endPc="268459416" name="themeicon" stackId="1" startPc="268458730"/>
+<entry endPc="268459416" name="scicon" stackId="2" startPc="268458730"/>
+<entry endPc="268459416" name="bgicon" stackId="3" startPc="268458730"/>
+<entry endPc="268459416" name="anicon" stackId="4" startPc="268458730"/>
+<entry endPc="268459416" name="dpicon" stackId="5" startPc="268458730"/>
+<entry endPc="268459416" name="statsicon" stackId="6" startPc="268458730"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="suits20"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="suits30"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="suits35"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="suits40"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TriPeaksDelegate" offset="1746" parentId="globals" symbolId="TriPeaksDelegate" type="class"/>
+<dataEntry label="globals/TriPeaksApp" offset="1817" parentId="globals" symbolId="TriPeaksApp" type="class"/>
+<dataEntry label="globals/TriPeaksMenuDelegate" offset="1888" parentId="globals" symbolId="TriPeaksMenuDelegate" type="class"/>
+<dataEntry label="globals/TriPeaksView" offset="1951" parentId="globals" symbolId="TriPeaksView" type="class"/>
+<dataEntry label="globals/DrawableMenuTitle" offset="2086" parentId="globals" symbolId="DrawableMenuTitle" type="class"/>
+<dataEntry label="globals/CustomIcon" offset="2141" parentId="globals" symbolId="CustomIcon" type="class"/>
+<dataEntry label="globals/Rez" offset="2204" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TriPeaksStatsDelegate" offset="2283" parentId="globals" symbolId="TriPeaksStatsDelegate" type="class"/>
+<dataEntry label="globals/CustomItem" offset="2346" parentId="globals" symbolId="CustomItem" type="class"/>
+<dataEntry label="globals/TriPeaksSettings" offset="2441" parentId="globals" symbolId="TriPeaksSettings" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="2488" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="2527" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="2558" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="2597" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2660" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="2723" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="2754" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268436530" name="play" startPc="268436073">
+<param id="s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436752" name="commas" startPc="268436531">
+<param id="whole"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436771" name="&lt;init&gt;" parent="TriPeaksDelegate" startPc="268436753">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436849" name="onMenu" parent="TriPeaksDelegate" startPc="268436772">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436870" name="initialize" parent="TriPeaksDelegate" startPc="268436850">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438483" name="onTap" parent="TriPeaksDelegate" startPc="268436871">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438638" name="inbox" parent="TriPeaksDelegate" startPc="268438484">
+<param id="point"/>
+<param id="boxxy"/>
+<param id="boxwh"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438657" name="&lt;init&gt;" parent="TriPeaksApp" startPc="268438639">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438660" name="onStart" parent="TriPeaksApp" startPc="268438658">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438737" name="getInitialView" parent="TriPeaksApp" startPc="268438661">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438758" name="initialize" parent="TriPeaksApp" startPc="268438738">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438761" name="onStop" parent="TriPeaksApp" startPc="268438759">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439170" name="deepcopy" startPc="268438762">
+<param id="input"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439189" name="&lt;init&gt;" parent="TriPeaksMenuDelegate" startPc="268439171">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439213" name="onBack" parent="TriPeaksMenuDelegate" startPc="268439190">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439234" name="initialize" parent="TriPeaksMenuDelegate" startPc="268439214">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439892" name="onSelect" parent="TriPeaksMenuDelegate" startPc="268439235">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439911" name="&lt;init&gt;" parent="TriPeaksView" startPc="268439893">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441669" name="drawcard2" parent="TriPeaksView" startPc="268439912">
+<param id="xy"/>
+<param id="wh"/>
+<param id="card"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TriPeaksView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442462" name="drawbutton" parent="TriPeaksView" startPc="268441670">
+<param id="xy"/>
+<param id="wh"/>
+<param id="text"/>
+<param id="col"/>
+<param id="valid"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442901" name="drawboard" parent="TriPeaksView" startPc="268442463">
+<param id="scale"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444575" name="onLayout" parent="TriPeaksView" startPc="268442902">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445056" name="drawplate" parent="TriPeaksView" startPc="268444576">
+<param id="xy"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268445083" name="drawcard" parent="TriPeaksView" startPc="268445057">
+<param id="xy"/>
+<param id="card"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="TriPeaksView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TriPeaksView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268448203" name="onUpdate" parent="TriPeaksView" startPc="268445084">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268448531" name="drawlabel" parent="TriPeaksView" startPc="268448204">
+<param id="xy"/>
+<param id="text"/>
+<param id="col"/>
+<param id="big"/>
+<param id="bg"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268448550" name="onTimer" parent="TriPeaksView" startPc="268448532">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268448569" name="&lt;init&gt;" parent="DrawableMenuTitle" startPc="268448551">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268448596" name="initialize" parent="DrawableMenuTitle" startPc="268448570">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449021" name="draw" parent="DrawableMenuTitle" startPc="268448597">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449040" name="&lt;init&gt;" parent="CustomIcon" startPc="268449022">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449077" name="initialize" parent="CustomIcon" startPc="268449041">
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449114" name="draw" parent="CustomIcon" startPc="268449078">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449283" name="deal" startPc="268449115">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449309" name="getApp" startPc="268449284">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268449897" name="showstats" startPc="268449310">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268450186" name="flipcards" startPc="268449898">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268450210" name="&lt;init&gt;" parent="Rez" startPc="268450187">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268455368" name="getlayout" startPc="268450211">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268455890" name="savegame" startPc="268455369">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456819" name="newgame" startPc="268455891">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456951" name="addcard" startPc="268456820">
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456970" name="&lt;init&gt;" parent="TriPeaksStatsDelegate" startPc="268456952">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268456994" name="onBack" parent="TriPeaksStatsDelegate" startPc="268456971">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457015" name="initialize" parent="TriPeaksStatsDelegate" startPc="268456995">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457018" name="onSelect" parent="TriPeaksStatsDelegate" startPc="268457016">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457271" name="calcpath" startPc="268457019">
+<param id="xy1"/>
+<param id="xy2"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457290" name="&lt;init&gt;" parent="CustomItem" startPc="268457272">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457369" name="initialize" parent="CustomItem" startPc="268457291">
+<param id="id"/>
+<param id="label"/>
+<param id="count"/>
+<param id="total"/>
+<param id="max"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268457843" name="draw" parent="CustomItem" startPc="268457370">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268458103" name="loadgame" startPc="268457844">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268458482" name="value" startPc="268458104">
+<param id="c"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268458706" name="firstdeal" startPc="268458483">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268458725" name="&lt;init&gt;" parent="TriPeaksSettings" startPc="268458707">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268459417" name="initialize" parent="TriPeaksSettings" startPc="268458726">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268460235" name="addstats" startPc="268459418">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268460254" name="&lt;init&gt;" parent="MainMenu" startPc="268460236">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268460387" name="initialize" parent="MainMenu" startPc="268460255">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

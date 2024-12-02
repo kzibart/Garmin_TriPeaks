@@ -1,0 +1,427 @@
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 4; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 5; ]
+import Toybox.Graphics;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 7; ]
+class TriPeaksMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 9; ]
+    function initialize() as Void {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_9_26_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 10 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_9_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 13; ]
+    public
+    function onSelect(item as MenuItem) {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_13_47_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 14 8 ]
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        push %tmp.3;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtBegin:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 15 12 ]
+        %tmp.4 = dup %tmp.3;
+        %tmp.5 = "theme";
+        %tmp.6 = getv function %tmp.4 :equals;
+        %tmp.7 = invoke %tmp.4 %tmp.6 (%tmp.5);
+        bt %tmp.7 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_15_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 20 12 ]
+        %tmp.8 = dup %tmp.3;
+        %tmp.9 = "suitcolor";
+        %tmp.10 = getv function %tmp.8 :equals;
+        %tmp.11 = invoke %tmp.8 %tmp.10 (%tmp.9);
+        bt %tmp.11 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_20_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 25 12 ]
+        %tmp.12 = dup %tmp.3;
+        %tmp.13 = "background";
+        %tmp.14 = getv function %tmp.12 :equals;
+        %tmp.15 = invoke %tmp.12 %tmp.14 (%tmp.13);
+        bt %tmp.15 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_25_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 30 12 ]
+        %tmp.16 = dup %tmp.3;
+        %tmp.17 = "animation";
+        %tmp.18 = getv function %tmp.16 :equals;
+        %tmp.19 = invoke %tmp.16 %tmp.18 (%tmp.17);
+        bt %tmp.19 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_30_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 35 12 ]
+        %tmp.20 = dup %tmp.3;
+        %tmp.21 = "deckpos";
+        %tmp.22 = getv function %tmp.20 :equals;
+        %tmp.23 = invoke %tmp.20 %tmp.22 (%tmp.21);
+        bt %tmp.23 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_35_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 40 12 ]
+        %tmp.24 = dup %tmp.3;
+        %tmp.25 = "stats";
+        %tmp.26 = getv function %tmp.24 :equals;
+        %tmp.27 = invoke %tmp.24 %tmp.26 (%tmp.25);
+        bt %tmp.27 @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_40_12_switchCase;
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_defaultCodeBegin;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_15_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 16 16 ]
+        %tmp.29 = getv ? :theme;
+        %tmp.30 = 1;
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.33 = getv ? :themes;
+        %tmp.34 = getv function %tmp.33 :size;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = mod %tmp.31 %tmp.35;
+        putv self :theme %tmp.36;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 17 16 ]
+        %tmp.37 = getm $.Toybox.Application.Storage;
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = "theme";
+        %tmp.41 = getv ? :theme;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.41);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 18 16 ]
+        %tmp.42 = lgetv %item;
+        %tmp.43 = getv function %tmp.42 :setSubLabel;
+        %tmp.45 = getv ? :themes;
+        %tmp.47 = getv ? :theme;
+        %tmp.48 = agetv %tmp.45 %tmp.47;
+        invoke %tmp.42 %tmp.43(%tmp.48);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 19 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_20_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 21 16 ]
+        %tmp.50 = getv ? :suitcolor;
+        %tmp.51 = 1;
+        %tmp.52 = add %tmp.50 %tmp.51;
+        %tmp.54 = getv ? :suitcolors;
+        %tmp.55 = getv function %tmp.54 :size;
+        %tmp.56 = invoke %tmp.54 %tmp.55();
+        %tmp.57 = mod %tmp.52 %tmp.56;
+        putv self :suitcolor %tmp.57;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 22 16 ]
+        %tmp.58 = getm $.Toybox.Application.Storage;
+        %tmp.59 = getv function %tmp.58 :setValue;
+        %tmp.60 = "suitcolor";
+        %tmp.62 = getv ? :suitcolor;
+        invoke %tmp.58 %tmp.59(%tmp.60, %tmp.62);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 23 16 ]
+        %tmp.63 = lgetv %item;
+        %tmp.64 = getv function %tmp.63 :setSubLabel;
+        %tmp.66 = getv ? :suitcolors;
+        %tmp.68 = getv ? :suitcolor;
+        %tmp.69 = agetv %tmp.66 %tmp.68;
+        invoke %tmp.63 %tmp.64(%tmp.69);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 24 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_25_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 26 16 ]
+        %tmp.71 = getv ? :background;
+        %tmp.72 = 1;
+        %tmp.73 = add %tmp.71 %tmp.72;
+        %tmp.75 = getv ? :backgrounds;
+        %tmp.76 = getv function %tmp.75 :size;
+        %tmp.77 = invoke %tmp.75 %tmp.76();
+        %tmp.78 = mod %tmp.73 %tmp.77;
+        putv self :background %tmp.78;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 27 16 ]
+        %tmp.79 = getm $.Toybox.Application.Storage;
+        %tmp.80 = getv function %tmp.79 :setValue;
+        %tmp.81 = "background";
+        %tmp.83 = getv ? :background;
+        invoke %tmp.79 %tmp.80(%tmp.81, %tmp.83);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 28 16 ]
+        %tmp.84 = lgetv %item;
+        %tmp.85 = getv function %tmp.84 :setSubLabel;
+        %tmp.87 = getv ? :backgrounds;
+        %tmp.89 = getv ? :background;
+        %tmp.90 = agetv %tmp.87 %tmp.89;
+        invoke %tmp.84 %tmp.85(%tmp.90);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 29 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_30_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 31 16 ]
+        %tmp.92 = getv ? :animation;
+        %tmp.93 = 1;
+        %tmp.94 = add %tmp.92 %tmp.93;
+        %tmp.96 = getv ? :animations;
+        %tmp.97 = getv function %tmp.96 :size;
+        %tmp.98 = invoke %tmp.96 %tmp.97();
+        %tmp.99 = mod %tmp.94 %tmp.98;
+        putv self :animation %tmp.99;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 32 16 ]
+        %tmp.100 = getm $.Toybox.Application.Storage;
+        %tmp.101 = getv function %tmp.100 :setValue;
+        %tmp.102 = "animation";
+        %tmp.104 = getv ? :animation;
+        invoke %tmp.100 %tmp.101(%tmp.102, %tmp.104);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 33 16 ]
+        %tmp.105 = lgetv %item;
+        %tmp.106 = getv function %tmp.105 :setSubLabel;
+        %tmp.108 = getv ? :animations;
+        %tmp.110 = getv ? :animation;
+        %tmp.111 = agetv %tmp.108 %tmp.110;
+        invoke %tmp.105 %tmp.106(%tmp.111);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 34 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_35_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 36 16 ]
+        %tmp.113 = getv ? :deckpos;
+        %tmp.114 = 1;
+        %tmp.115 = add %tmp.113 %tmp.114;
+        %tmp.117 = getv ? :deckposs;
+        %tmp.118 = getv function %tmp.117 :size;
+        %tmp.119 = invoke %tmp.117 %tmp.118();
+        %tmp.120 = mod %tmp.115 %tmp.119;
+        putv self :deckpos %tmp.120;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 37 16 ]
+        %tmp.121 = getm $.Toybox.Application.Storage;
+        %tmp.122 = getv function %tmp.121 :setValue;
+        %tmp.123 = "deckpos";
+        %tmp.125 = getv ? :deckpos;
+        invoke %tmp.121 %tmp.122(%tmp.123, %tmp.125);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 38 16 ]
+        %tmp.126 = lgetv %item;
+        %tmp.127 = getv function %tmp.126 :setSubLabel;
+        %tmp.129 = getv ? :deckposs;
+        %tmp.131 = getv ? :deckpos;
+        %tmp.132 = agetv %tmp.129 %tmp.131;
+        invoke %tmp.126 %tmp.127(%tmp.132);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 39 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_40_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 41 16 ]
+        %tmp.133 = self;
+        %tmp.134 = getv function %tmp.133 :showstats;
+        invoke %tmp.133 %tmp.134();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 42 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_defaultCodeBegin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_14_8_switchStmtEnd:
+        pop;
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_13_47_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 46; ]
+    public
+    function onBack() {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_46_29_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 47 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_46_29_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 52; ]
+class TriPeaksSettings extends WatchUi.Menu2{
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 52; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 52; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 53; ]
+    public
+    function initialize() as Void {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 54 8 ]
+        %tmp.2 = getv ? :Menu2;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = null;
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 55 8 ]
+        %tmp.6 = getv ? :Menu2;
+        %tmp.7 = getv function %tmp.6 :setTitle;
+        %tmp.8 = "Settings";
+        invoke %tmp.6 %tmp.7(%tmp.8);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 57 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %themeicon.1 = local;
+        %tmp.12 = getm $;
+        %tmp.13 = getv %tmp.12 :CustomIcon;
+        %tmp.15 = getv ? :theme;
+        %tmp.9 = newc %tmp.13 (%tmp.15);
+        lputv %themeicon.1 %tmp.9;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 58 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %scicon.2 = local;
+        %tmp.19 = getm $;
+        %tmp.20 = getv %tmp.19 :CustomIcon;
+        %tmp.22 = getv ? :suitcolor;
+        %tmp.16 = newc %tmp.20 (%tmp.22);
+        lputv %scicon.2 %tmp.16;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 59 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %bgicon.3 = local;
+        %tmp.26 = getm $;
+        %tmp.27 = getv %tmp.26 :CustomIcon;
+        %tmp.29 = getv ? :background;
+        %tmp.23 = newc %tmp.27 (%tmp.29);
+        lputv %bgicon.3 %tmp.23;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 60 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %anicon.4 = local;
+        %tmp.33 = getm $;
+        %tmp.34 = getv %tmp.33 :CustomIcon;
+        %tmp.36 = getv ? :animation;
+        %tmp.30 = newc %tmp.34 (%tmp.36);
+        lputv %anicon.4 %tmp.30;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 61 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %dpicon.5 = local;
+        %tmp.40 = getm $;
+        %tmp.41 = getv %tmp.40 :CustomIcon;
+        %tmp.43 = getv ? :deckpos;
+        %tmp.37 = newc %tmp.41 (%tmp.43);
+        lputv %dpicon.5 %tmp.37;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 62 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop" ]
+        %statsicon.6 = local;
+        %tmp.47 = getm $;
+        %tmp.48 = getv %tmp.47 :CustomIcon;
+        %tmp.49 = 0;
+        %tmp.44 = newc %tmp.48 (%tmp.49);
+        lputv %statsicon.6 %tmp.44;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 64 8 ]
+        %tmp.51 = getv ? :Menu2;
+        %tmp.52 = getv function %tmp.51 :addItem;
+        %tmp.55 = getm $.Toybox.WatchUi;
+        %tmp.56 = getv function ? %tmp.55 :IconMenuItem;
+        %tmp.57 = "Theme";
+        %tmp.59 = getv ? :themes;
+        %tmp.61 = getv ? :theme;
+        %tmp.62 = agetv %tmp.59 %tmp.61;
+        %tmp.63 = "theme";
+        %tmp.65 = lgetv %themeicon.1;
+        %tmp.66 = null;
+        %tmp.53 = newc %tmp.56 (%tmp.57, %tmp.62, %tmp.63, %tmp.65, %tmp.66);
+        invoke %tmp.51 %tmp.52(%tmp.53);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 65 8 ]
+        %tmp.68 = getv ? :Menu2;
+        %tmp.69 = getv function %tmp.68 :addItem;
+        %tmp.72 = getm $.Toybox.WatchUi;
+        %tmp.73 = getv function ? %tmp.72 :IconMenuItem;
+        %tmp.74 = "Suit Colors";
+        %tmp.76 = getv ? :suitcolors;
+        %tmp.78 = getv ? :suitcolor;
+        %tmp.79 = agetv %tmp.76 %tmp.78;
+        %tmp.80 = "suitcolor";
+        %tmp.82 = lgetv %scicon.2;
+        %tmp.83 = null;
+        %tmp.70 = newc %tmp.73 (%tmp.74, %tmp.79, %tmp.80, %tmp.82, %tmp.83);
+        invoke %tmp.68 %tmp.69(%tmp.70);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 66 8 ]
+        %tmp.85 = getv ? :Menu2;
+        %tmp.86 = getv function %tmp.85 :addItem;
+        %tmp.89 = getm $.Toybox.WatchUi;
+        %tmp.90 = getv function ? %tmp.89 :IconMenuItem;
+        %tmp.91 = "Background";
+        %tmp.93 = getv ? :backgrounds;
+        %tmp.95 = getv ? :background;
+        %tmp.96 = agetv %tmp.93 %tmp.95;
+        %tmp.97 = "background";
+        %tmp.99 = lgetv %bgicon.3;
+        %tmp.100 = null;
+        %tmp.87 = newc %tmp.90 (%tmp.91, %tmp.96, %tmp.97, %tmp.99, %tmp.100);
+        invoke %tmp.85 %tmp.86(%tmp.87);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 67 8 ]
+        %tmp.102 = getv ? :Menu2;
+        %tmp.103 = getv function %tmp.102 :addItem;
+        %tmp.106 = getm $.Toybox.WatchUi;
+        %tmp.107 = getv function ? %tmp.106 :IconMenuItem;
+        %tmp.108 = "Animations";
+        %tmp.110 = getv ? :animations;
+        %tmp.112 = getv ? :animation;
+        %tmp.113 = agetv %tmp.110 %tmp.112;
+        %tmp.114 = "animation";
+        %tmp.116 = lgetv %anicon.4;
+        %tmp.117 = null;
+        %tmp.104 = newc %tmp.107 (%tmp.108, %tmp.113, %tmp.114, %tmp.116, %tmp.117);
+        invoke %tmp.102 %tmp.103(%tmp.104);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 68 8 ]
+        %tmp.119 = getv ? :Menu2;
+        %tmp.120 = getv function %tmp.119 :addItem;
+        %tmp.123 = getm $.Toybox.WatchUi;
+        %tmp.124 = getv function ? %tmp.123 :IconMenuItem;
+        %tmp.125 = "Deck Position";
+        %tmp.127 = getv ? :deckposs;
+        %tmp.129 = getv ? :deckpos;
+        %tmp.130 = agetv %tmp.127 %tmp.129;
+        %tmp.131 = "deckpos";
+        %tmp.133 = lgetv %dpicon.5;
+        %tmp.134 = null;
+        %tmp.121 = newc %tmp.124 (%tmp.125, %tmp.130, %tmp.131, %tmp.133, %tmp.134);
+        invoke %tmp.119 %tmp.120(%tmp.121);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 69 8 ]
+        %tmp.136 = getv ? :Menu2;
+        %tmp.137 = getv function %tmp.136 :addItem;
+        %tmp.140 = getm $.Toybox.WatchUi;
+        %tmp.141 = getv function ? %tmp.140 :IconMenuItem;
+        %tmp.142 = "Stats";
+        %tmp.143 = "Show statistics";
+        %tmp.144 = "stats";
+        %tmp.146 = lgetv %statsicon.6;
+        %tmp.147 = null;
+        %tmp.138 = newc %tmp.141 (%tmp.142, %tmp.143, %tmp.144, %tmp.146, %tmp.147);
+        invoke %tmp.136 %tmp.137(%tmp.138);
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_53_33_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 73; ]
+class CustomIcon extends WatchUi.Drawable{
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 73; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 73; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 74; @position = 16; ]
+    private
+    var _index as Number;
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 76; ]
+    public
+    function initialize(index as Number) as Void {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_76_48_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 77 8 ]
+        %tmp.2 = lgetv %index;
+        putv self :_index %tmp.2;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 78 8 ]
+        %tmp.4 = getv ? :Drawable;
+        %tmp.5 = getv function %tmp.4 :initialize;
+        %tmp.6 = newd 0;
+        invoke %tmp.4 %tmp.5(%tmp.6);
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_76_48_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 81; ]
+    public
+    function draw(dc as Dc) as Void {
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_81_43_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 82 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = -1;
+        %tmp.4 = -1;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc" 83 8 ]
+        %tmp.5 = lgetv %dc;
+        %tmp.6 = getv function %tmp.5 :clear;
+        invoke %tmp.5 %tmp.6();
+C_Garmin_Projects_TriPeaks_source_TriPeaksMenuDelegate_mc_81_43_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

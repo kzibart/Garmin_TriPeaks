@@ -1,0 +1,1884 @@
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 1; ]
+import Toybox.Math;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 3; @position = 4; ]
+var layouts;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 4; @position = 4; ]
+var layout = 2;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 6; ]
+function getlayout() {
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_6_21_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 11 4 ]
+    %tmp.1 = newa 0;
+    putv self :boardXY %tmp.1;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 12 4 ]
+    %tmp.2 = newa 0;
+    putv self :board %tmp.2;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 13 4 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_stmt:
+    %tmp.4 = getv ? :layouts;
+    %tmp.6 = getv ? :layout;
+    %tmp.7 = agetv %tmp.4 %tmp.6;
+    %tmp.8 = getv function %tmp.7 :equals;
+    %tmp.9 = "Pile";
+    %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+    bf %tmp.10 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_40_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 15 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_end" ]
+    %i.1 = local;
+    %tmp.11 = 0;
+    lputv %i.1 %tmp.11;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_test:
+    %tmp.13 = lgetv %i.1;
+    %tmp.14 = 20;
+    %tmp.15 = lt %tmp.13 %tmp.14;
+    bf %tmp.15 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_31_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 16 12 ]
+    %tmp.16 = getm $.Toybox.Math;
+    %tmp.17 = getv function %tmp.16 :rand;
+    %tmp.18 = invoke %tmp.16 %tmp.17();
+    %tmp.19 = 50;
+    %tmp.20 = mod %tmp.18 %tmp.19;
+    %tmp.21 = getm $.Toybox.Math;
+    %tmp.22 = getv function %tmp.21 :rand;
+    %tmp.23 = invoke %tmp.21 %tmp.22();
+    %tmp.24 = 50;
+    %tmp.25 = mod %tmp.23 %tmp.24;
+    %tmp.26 = add %tmp.20 %tmp.25;
+    putv self :tmp %tmp.26;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 17 12 ]
+    %tmp.27 = getm $.Toybox.Math;
+    %tmp.28 = getv function %tmp.27 :rand;
+    %tmp.29 = invoke %tmp.27 %tmp.28();
+    %tmp.30 = 50;
+    %tmp.31 = mod %tmp.29 %tmp.30;
+    %tmp.32 = getm $.Toybox.Math;
+    %tmp.33 = getv function %tmp.32 :rand;
+    %tmp.34 = invoke %tmp.32 %tmp.33();
+    %tmp.35 = 50;
+    %tmp.36 = mod %tmp.34 %tmp.35;
+    %tmp.37 = add %tmp.31 %tmp.36;
+    putv self :tmp2 %tmp.37;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 18 12 ]
+    %tmp.38 = self;
+    %tmp.39 = getv function %tmp.38 :addcard;
+    %tmp.41 = getv ? :tmp;
+    %tmp.43 = getv ? :tmp2;
+    invoke %tmp.38 %tmp.39(%tmp.41, %tmp.43);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_31_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 15 ]
+    %tmp.46 = lgetv %i.1;
+    %tmp.47 = add %tmp.46 1;
+    lputv %i.1 %tmp.47;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_15_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_40_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 20 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_stmt:
+    %tmp.49 = getv ? :layouts;
+    %tmp.51 = getv ? :layout;
+    %tmp.52 = agetv %tmp.49 %tmp.51;
+    %tmp.53 = getv function %tmp.52 :equals;
+    %tmp.54 = "Random";
+    %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+    bf %tmp.55 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_49_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 22 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_end" ]
+    %i.2 = local;
+    %tmp.56 = 0;
+    lputv %i.2 %tmp.56;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_test:
+    %tmp.58 = lgetv %i.2;
+    %tmp.59 = 25;
+    %tmp.60 = lt %tmp.58 %tmp.59;
+    bf %tmp.60 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_31_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 23 12 ]
+    %tmp.61 = getm $.Toybox.Math;
+    %tmp.62 = getv function %tmp.61 :rand;
+    %tmp.63 = invoke %tmp.61 %tmp.62();
+    %tmp.64 = 100;
+    %tmp.65 = mod %tmp.63 %tmp.64;
+    putv self :tmp %tmp.65;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 24 12 ]
+    %tmp.66 = getm $.Toybox.Math;
+    %tmp.67 = getv function %tmp.66 :rand;
+    %tmp.68 = invoke %tmp.66 %tmp.67();
+    %tmp.69 = 100;
+    %tmp.70 = mod %tmp.68 %tmp.69;
+    putv self :tmp2 %tmp.70;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 25 12 ]
+    %tmp.71 = self;
+    %tmp.72 = getv function %tmp.71 :addcard;
+    %tmp.74 = getv ? :tmp;
+    %tmp.76 = getv ? :tmp2;
+    invoke %tmp.71 %tmp.72(%tmp.74, %tmp.76);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_31_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 22 ]
+    %tmp.79 = lgetv %i.2;
+    %tmp.80 = add %tmp.79 1;
+    lputv %i.2 %tmp.80;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_22_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_49_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 27 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_stmt:
+    %tmp.82 = getv ? :layouts;
+    %tmp.84 = getv ? :layout;
+    %tmp.85 = agetv %tmp.82 %tmp.84;
+    %tmp.86 = getv function %tmp.85 :equals;
+    %tmp.87 = "Original";
+    %tmp.88 = invoke %tmp.85 %tmp.86(%tmp.87);
+    bf %tmp.88 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_51_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 29 8 ]
+    %tmp.89 = self;
+    %tmp.90 = getv function %tmp.89 :addcard;
+    %tmp.91 = 50;
+    %tmp.92 = 2;
+    invoke %tmp.89 %tmp.90(%tmp.91, %tmp.92);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 30 8 ]
+    %tmp.93 = self;
+    %tmp.94 = getv function %tmp.93 :addcard;
+    %tmp.95 = 40;
+    %tmp.96 = 18;
+    invoke %tmp.93 %tmp.94(%tmp.95, %tmp.96);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 31 8 ]
+    %tmp.97 = self;
+    %tmp.98 = getv function %tmp.97 :addcard;
+    %tmp.99 = 60;
+    %tmp.100 = 18;
+    invoke %tmp.97 %tmp.98(%tmp.99, %tmp.100);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 32 8 ]
+    %tmp.101 = self;
+    %tmp.102 = getv function %tmp.101 :addcard;
+    %tmp.103 = 30;
+    %tmp.104 = 34;
+    invoke %tmp.101 %tmp.102(%tmp.103, %tmp.104);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 33 8 ]
+    %tmp.105 = self;
+    %tmp.106 = getv function %tmp.105 :addcard;
+    %tmp.107 = 50;
+    %tmp.108 = 34;
+    invoke %tmp.105 %tmp.106(%tmp.107, %tmp.108);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 34 8 ]
+    %tmp.109 = self;
+    %tmp.110 = getv function %tmp.109 :addcard;
+    %tmp.111 = 70;
+    %tmp.112 = 34;
+    invoke %tmp.109 %tmp.110(%tmp.111, %tmp.112);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 35 8 ]
+    %tmp.113 = self;
+    %tmp.114 = getv function %tmp.113 :addcard;
+    %tmp.115 = 50;
+    %tmp.116 = 10;
+    invoke %tmp.113 %tmp.114(%tmp.115, %tmp.116);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 36 8 ]
+    %tmp.117 = self;
+    %tmp.118 = getv function %tmp.117 :addcard;
+    %tmp.119 = 40;
+    %tmp.120 = 26;
+    invoke %tmp.117 %tmp.118(%tmp.119, %tmp.120);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 37 8 ]
+    %tmp.121 = self;
+    %tmp.122 = getv function %tmp.121 :addcard;
+    %tmp.123 = 60;
+    %tmp.124 = 26;
+    invoke %tmp.121 %tmp.122(%tmp.123, %tmp.124);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 39 8 ]
+    %tmp.125 = self;
+    %tmp.126 = getv function %tmp.125 :addcard;
+    %tmp.127 = 20;
+    %tmp.128 = 66;
+    invoke %tmp.125 %tmp.126(%tmp.127, %tmp.128);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 40 8 ]
+    %tmp.129 = self;
+    %tmp.130 = getv function %tmp.129 :addcard;
+    %tmp.131 = 10;
+    %tmp.132 = 82;
+    invoke %tmp.129 %tmp.130(%tmp.131, %tmp.132);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 41 8 ]
+    %tmp.133 = self;
+    %tmp.134 = getv function %tmp.133 :addcard;
+    %tmp.135 = 30;
+    %tmp.136 = 82;
+    invoke %tmp.133 %tmp.134(%tmp.135, %tmp.136);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 42 8 ]
+    %tmp.137 = self;
+    %tmp.138 = getv function %tmp.137 :addcard;
+    %tmp.139 = 0;
+    %tmp.140 = 98;
+    invoke %tmp.137 %tmp.138(%tmp.139, %tmp.140);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 43 8 ]
+    %tmp.141 = self;
+    %tmp.142 = getv function %tmp.141 :addcard;
+    %tmp.143 = 20;
+    %tmp.144 = 98;
+    invoke %tmp.141 %tmp.142(%tmp.143, %tmp.144);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 44 8 ]
+    %tmp.145 = self;
+    %tmp.146 = getv function %tmp.145 :addcard;
+    %tmp.147 = 40;
+    %tmp.148 = 98;
+    invoke %tmp.145 %tmp.146(%tmp.147, %tmp.148);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 45 8 ]
+    %tmp.149 = self;
+    %tmp.150 = getv function %tmp.149 :addcard;
+    %tmp.151 = 20;
+    %tmp.152 = 74;
+    invoke %tmp.149 %tmp.150(%tmp.151, %tmp.152);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 46 8 ]
+    %tmp.153 = self;
+    %tmp.154 = getv function %tmp.153 :addcard;
+    %tmp.155 = 10;
+    %tmp.156 = 90;
+    invoke %tmp.153 %tmp.154(%tmp.155, %tmp.156);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 47 8 ]
+    %tmp.157 = self;
+    %tmp.158 = getv function %tmp.157 :addcard;
+    %tmp.159 = 30;
+    %tmp.160 = 90;
+    invoke %tmp.157 %tmp.158(%tmp.159, %tmp.160);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 49 8 ]
+    %tmp.161 = self;
+    %tmp.162 = getv function %tmp.161 :addcard;
+    %tmp.163 = 80;
+    %tmp.164 = 66;
+    invoke %tmp.161 %tmp.162(%tmp.163, %tmp.164);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 50 8 ]
+    %tmp.165 = self;
+    %tmp.166 = getv function %tmp.165 :addcard;
+    %tmp.167 = 70;
+    %tmp.168 = 82;
+    invoke %tmp.165 %tmp.166(%tmp.167, %tmp.168);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 51 8 ]
+    %tmp.169 = self;
+    %tmp.170 = getv function %tmp.169 :addcard;
+    %tmp.171 = 90;
+    %tmp.172 = 82;
+    invoke %tmp.169 %tmp.170(%tmp.171, %tmp.172);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 52 8 ]
+    %tmp.173 = self;
+    %tmp.174 = getv function %tmp.173 :addcard;
+    %tmp.175 = 60;
+    %tmp.176 = 98;
+    invoke %tmp.173 %tmp.174(%tmp.175, %tmp.176);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 53 8 ]
+    %tmp.177 = self;
+    %tmp.178 = getv function %tmp.177 :addcard;
+    %tmp.179 = 80;
+    %tmp.180 = 98;
+    invoke %tmp.177 %tmp.178(%tmp.179, %tmp.180);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 54 8 ]
+    %tmp.181 = self;
+    %tmp.182 = getv function %tmp.181 :addcard;
+    %tmp.183 = 100;
+    %tmp.184 = 98;
+    invoke %tmp.181 %tmp.182(%tmp.183, %tmp.184);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 55 8 ]
+    %tmp.185 = self;
+    %tmp.186 = getv function %tmp.185 :addcard;
+    %tmp.187 = 80;
+    %tmp.188 = 74;
+    invoke %tmp.185 %tmp.186(%tmp.187, %tmp.188);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 56 8 ]
+    %tmp.189 = self;
+    %tmp.190 = getv function %tmp.189 :addcard;
+    %tmp.191 = 70;
+    %tmp.192 = 90;
+    invoke %tmp.189 %tmp.190(%tmp.191, %tmp.192);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 57 8 ]
+    %tmp.193 = self;
+    %tmp.194 = getv function %tmp.193 :addcard;
+    %tmp.195 = 90;
+    %tmp.196 = 90;
+    invoke %tmp.193 %tmp.194(%tmp.195, %tmp.196);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_51_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 58 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_stmt:
+    %tmp.198 = getv ? :layouts;
+    %tmp.200 = getv ? :layout;
+    %tmp.201 = agetv %tmp.198 %tmp.200;
+    %tmp.202 = getv function %tmp.201 :equals;
+    %tmp.203 = "Quadrants";
+    %tmp.204 = invoke %tmp.201 %tmp.202(%tmp.203);
+    bf %tmp.204 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_52_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 60 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_end" ]
+    %x.3 = local;
+    %tmp.205 = 0;
+    lputv %x.3 %tmp.205;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_test:
+    %tmp.207 = lgetv %x.3;
+    %tmp.208 = 101;
+    %tmp.209 = lt %tmp.207 %tmp.208;
+    bf %tmp.209 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_34_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 61 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_end" ]
+    %y.4 = local;
+    %tmp.210 = 2;
+    lputv %y.4 %tmp.210;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_test:
+    %tmp.212 = lgetv %y.4;
+    %tmp.213 = 100;
+    %tmp.214 = lt %tmp.212 %tmp.213;
+    bf %tmp.214 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_38_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 62 16 ]
+    %tmp.215 = self;
+    %tmp.216 = getv function %tmp.215 :addcard;
+    %tmp.218 = lgetv %x.3;
+    %tmp.220 = lgetv %y.4;
+    invoke %tmp.215 %tmp.216(%tmp.218, %tmp.220);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_38_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 61 ]
+    %tmp.221 = lgetv %y.4;
+    %tmp.222 = 32;
+    %tmp.223 = add %tmp.221 %tmp.222;
+    lputv %y.4 %tmp.223;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_61_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_34_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 60 ]
+    %tmp.224 = lgetv %x.3;
+    %tmp.225 = 20;
+    %tmp.226 = add %tmp.224 %tmp.225;
+    lputv %x.3 %tmp.226;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_60_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 65 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_end" ]
+    %x.5 = local;
+    %tmp.227 = 10;
+    lputv %x.5 %tmp.227;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_test:
+    %tmp.229 = lgetv %x.5;
+    %tmp.230 = 100;
+    %tmp.231 = lt %tmp.229 %tmp.230;
+    bf %tmp.231 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_35_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 66 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_end" ]
+    %y.6 = local;
+    %tmp.232 = 10;
+    lputv %y.6 %tmp.232;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_test:
+    %tmp.234 = lgetv %y.6;
+    %tmp.235 = 100;
+    %tmp.236 = lt %tmp.234 %tmp.235;
+    bf %tmp.236 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_39_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 67 16 ]
+    %tmp.237 = self;
+    %tmp.238 = getv function %tmp.237 :addcard;
+    %tmp.240 = lgetv %x.5;
+    %tmp.242 = lgetv %y.6;
+    invoke %tmp.237 %tmp.238(%tmp.240, %tmp.242);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 68 16 ]
+    %tmp.243 = self;
+    %tmp.244 = getv function %tmp.243 :addcard;
+    %tmp.246 = lgetv %x.5;
+    %tmp.247 = 20;
+    %tmp.248 = add %tmp.246 %tmp.247;
+    %tmp.250 = lgetv %y.6;
+    invoke %tmp.243 %tmp.244(%tmp.248, %tmp.250);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 69 16 ]
+    %tmp.251 = self;
+    %tmp.252 = getv function %tmp.251 :addcard;
+    %tmp.254 = lgetv %x.5;
+    %tmp.255 = 10;
+    %tmp.256 = add %tmp.254 %tmp.255;
+    %tmp.258 = lgetv %y.6;
+    invoke %tmp.251 %tmp.252(%tmp.256, %tmp.258);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_39_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 66 ]
+    %tmp.259 = lgetv %y.6;
+    %tmp.260 = 64;
+    %tmp.261 = add %tmp.259 %tmp.260;
+    lputv %y.6 %tmp.261;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_66_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_35_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 65 ]
+    %tmp.262 = lgetv %x.5;
+    %tmp.263 = 60;
+    %tmp.264 = add %tmp.262 %tmp.263;
+    lputv %x.5 %tmp.264;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_65_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_52_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 72 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_stmt:
+    %tmp.266 = getv ? :layouts;
+    %tmp.268 = getv ? :layout;
+    %tmp.269 = agetv %tmp.266 %tmp.268;
+    %tmp.270 = getv function %tmp.269 :equals;
+    %tmp.271 = "Eyeball";
+    %tmp.272 = invoke %tmp.269 %tmp.270(%tmp.271);
+    bf %tmp.272 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_50_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 74 8 ]
+    %tmp.273 = self;
+    %tmp.274 = getv function %tmp.273 :addcard;
+    %tmp.275 = 50;
+    %tmp.276 = 9;
+    invoke %tmp.273 %tmp.274(%tmp.275, %tmp.276);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 75 8 ]
+    %tmp.277 = self;
+    %tmp.278 = getv function %tmp.277 :addcard;
+    %tmp.279 = 36;
+    %tmp.280 = 11;
+    invoke %tmp.277 %tmp.278(%tmp.279, %tmp.280);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 76 8 ]
+    %tmp.281 = self;
+    %tmp.282 = getv function %tmp.281 :addcard;
+    %tmp.283 = 25;
+    %tmp.284 = 16;
+    invoke %tmp.281 %tmp.282(%tmp.283, %tmp.284);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 77 8 ]
+    %tmp.285 = self;
+    %tmp.286 = getv function %tmp.285 :addcard;
+    %tmp.287 = 13;
+    %tmp.288 = 25;
+    invoke %tmp.285 %tmp.286(%tmp.287, %tmp.288);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 78 8 ]
+    %tmp.289 = self;
+    %tmp.290 = getv function %tmp.289 :addcard;
+    %tmp.291 = 5;
+    %tmp.292 = 34;
+    invoke %tmp.289 %tmp.290(%tmp.291, %tmp.292);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 80 8 ]
+    %tmp.293 = self;
+    %tmp.294 = getv function %tmp.293 :addcard;
+    %tmp.295 = 63;
+    %tmp.296 = 11;
+    invoke %tmp.293 %tmp.294(%tmp.295, %tmp.296);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 81 8 ]
+    %tmp.297 = self;
+    %tmp.298 = getv function %tmp.297 :addcard;
+    %tmp.299 = 75;
+    %tmp.300 = 16;
+    invoke %tmp.297 %tmp.298(%tmp.299, %tmp.300);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 82 8 ]
+    %tmp.301 = self;
+    %tmp.302 = getv function %tmp.301 :addcard;
+    %tmp.303 = 87;
+    %tmp.304 = 25;
+    invoke %tmp.301 %tmp.302(%tmp.303, %tmp.304);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 83 8 ]
+    %tmp.305 = self;
+    %tmp.306 = getv function %tmp.305 :addcard;
+    %tmp.307 = 95;
+    %tmp.308 = 34;
+    invoke %tmp.305 %tmp.306(%tmp.307, %tmp.308);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 85 8 ]
+    %tmp.309 = self;
+    %tmp.310 = getv function %tmp.309 :addcard;
+    %tmp.311 = 50;
+    %tmp.312 = 91;
+    invoke %tmp.309 %tmp.310(%tmp.311, %tmp.312);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 86 8 ]
+    %tmp.313 = self;
+    %tmp.314 = getv function %tmp.313 :addcard;
+    %tmp.315 = 36;
+    %tmp.316 = 89;
+    invoke %tmp.313 %tmp.314(%tmp.315, %tmp.316);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 87 8 ]
+    %tmp.317 = self;
+    %tmp.318 = getv function %tmp.317 :addcard;
+    %tmp.319 = 25;
+    %tmp.320 = 84;
+    invoke %tmp.317 %tmp.318(%tmp.319, %tmp.320);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 88 8 ]
+    %tmp.321 = self;
+    %tmp.322 = getv function %tmp.321 :addcard;
+    %tmp.323 = 13;
+    %tmp.324 = 75;
+    invoke %tmp.321 %tmp.322(%tmp.323, %tmp.324);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 89 8 ]
+    %tmp.325 = self;
+    %tmp.326 = getv function %tmp.325 :addcard;
+    %tmp.327 = 5;
+    %tmp.328 = 66;
+    invoke %tmp.325 %tmp.326(%tmp.327, %tmp.328);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 91 8 ]
+    %tmp.329 = self;
+    %tmp.330 = getv function %tmp.329 :addcard;
+    %tmp.331 = 64;
+    %tmp.332 = 89;
+    invoke %tmp.329 %tmp.330(%tmp.331, %tmp.332);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 92 8 ]
+    %tmp.333 = self;
+    %tmp.334 = getv function %tmp.333 :addcard;
+    %tmp.335 = 75;
+    %tmp.336 = 84;
+    invoke %tmp.333 %tmp.334(%tmp.335, %tmp.336);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 93 8 ]
+    %tmp.337 = self;
+    %tmp.338 = getv function %tmp.337 :addcard;
+    %tmp.339 = 87;
+    %tmp.340 = 75;
+    invoke %tmp.337 %tmp.338(%tmp.339, %tmp.340);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 94 8 ]
+    %tmp.341 = self;
+    %tmp.342 = getv function %tmp.341 :addcard;
+    %tmp.343 = 95;
+    %tmp.344 = 66;
+    invoke %tmp.341 %tmp.342(%tmp.343, %tmp.344);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 96 8 ]
+    %tmp.345 = self;
+    %tmp.346 = getv function %tmp.345 :addcard;
+    %tmp.347 = 0;
+    %tmp.348 = 50;
+    invoke %tmp.345 %tmp.346(%tmp.347, %tmp.348);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 97 8 ]
+    %tmp.349 = self;
+    %tmp.350 = getv function %tmp.349 :addcard;
+    %tmp.351 = 100;
+    %tmp.352 = 50;
+    invoke %tmp.349 %tmp.350(%tmp.351, %tmp.352);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 99 8 ]
+    %tmp.353 = self;
+    %tmp.354 = getv function %tmp.353 :addcard;
+    %tmp.355 = 40;
+    %tmp.356 = 50;
+    invoke %tmp.353 %tmp.354(%tmp.355, %tmp.356);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 100 8 ]
+    %tmp.357 = self;
+    %tmp.358 = getv function %tmp.357 :addcard;
+    %tmp.359 = 60;
+    %tmp.360 = 50;
+    invoke %tmp.357 %tmp.358(%tmp.359, %tmp.360);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 101 8 ]
+    %tmp.361 = self;
+    %tmp.362 = getv function %tmp.361 :addcard;
+    %tmp.363 = 50;
+    %tmp.364 = 50;
+    invoke %tmp.361 %tmp.362(%tmp.363, %tmp.364);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_50_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 102 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_stmt:
+    %tmp.366 = getv ? :layouts;
+    %tmp.368 = getv ? :layout;
+    %tmp.369 = agetv %tmp.366 %tmp.368;
+    %tmp.370 = getv function %tmp.369 :equals;
+    %tmp.371 = "Tie Fighter";
+    %tmp.372 = invoke %tmp.369 %tmp.370(%tmp.371);
+    bf %tmp.372 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_54_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 105 8 ]
+    %tmp.373 = self;
+    %tmp.374 = getv function %tmp.373 :addcard;
+    %tmp.375 = 10;
+    %tmp.376 = 50;
+    invoke %tmp.373 %tmp.374(%tmp.375, %tmp.376);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 106 8 ]
+    %tmp.377 = self;
+    %tmp.378 = getv function %tmp.377 :addcard;
+    %tmp.379 = 90;
+    %tmp.380 = 50;
+    invoke %tmp.377 %tmp.378(%tmp.379, %tmp.380);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 107 8 ]
+    %tmp.381 = self;
+    %tmp.382 = getv function %tmp.381 :addcard;
+    %tmp.383 = 20;
+    %tmp.384 = 50;
+    invoke %tmp.381 %tmp.382(%tmp.383, %tmp.384);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 108 8 ]
+    %tmp.385 = self;
+    %tmp.386 = getv function %tmp.385 :addcard;
+    %tmp.387 = 80;
+    %tmp.388 = 50;
+    invoke %tmp.385 %tmp.386(%tmp.387, %tmp.388);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 109 8 ]
+    %tmp.389 = self;
+    %tmp.390 = getv function %tmp.389 :addcard;
+    %tmp.391 = 30;
+    %tmp.392 = 55;
+    invoke %tmp.389 %tmp.390(%tmp.391, %tmp.392);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 110 8 ]
+    %tmp.393 = self;
+    %tmp.394 = getv function %tmp.393 :addcard;
+    %tmp.395 = 30;
+    %tmp.396 = 45;
+    invoke %tmp.393 %tmp.394(%tmp.395, %tmp.396);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 111 8 ]
+    %tmp.397 = self;
+    %tmp.398 = getv function %tmp.397 :addcard;
+    %tmp.399 = 70;
+    %tmp.400 = 55;
+    invoke %tmp.397 %tmp.398(%tmp.399, %tmp.400);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 112 8 ]
+    %tmp.401 = self;
+    %tmp.402 = getv function %tmp.401 :addcard;
+    %tmp.403 = 70;
+    %tmp.404 = 45;
+    invoke %tmp.401 %tmp.402(%tmp.403, %tmp.404);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 113 8 ]
+    %tmp.405 = self;
+    %tmp.406 = getv function %tmp.405 :addcard;
+    %tmp.407 = 40;
+    %tmp.408 = 60;
+    invoke %tmp.405 %tmp.406(%tmp.407, %tmp.408);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 114 8 ]
+    %tmp.409 = self;
+    %tmp.410 = getv function %tmp.409 :addcard;
+    %tmp.411 = 40;
+    %tmp.412 = 40;
+    invoke %tmp.409 %tmp.410(%tmp.411, %tmp.412);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 115 8 ]
+    %tmp.413 = self;
+    %tmp.414 = getv function %tmp.413 :addcard;
+    %tmp.415 = 60;
+    %tmp.416 = 60;
+    invoke %tmp.413 %tmp.414(%tmp.415, %tmp.416);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 116 8 ]
+    %tmp.417 = self;
+    %tmp.418 = getv function %tmp.417 :addcard;
+    %tmp.419 = 60;
+    %tmp.420 = 40;
+    invoke %tmp.417 %tmp.418(%tmp.419, %tmp.420);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 117 8 ]
+    %tmp.421 = self;
+    %tmp.422 = getv function %tmp.421 :addcard;
+    %tmp.423 = 50;
+    %tmp.424 = 50;
+    invoke %tmp.421 %tmp.422(%tmp.423, %tmp.424);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 120 8 ]
+    %tmp.425 = self;
+    %tmp.426 = getv function %tmp.425 :addcard;
+    %tmp.427 = 0;
+    %tmp.428 = 50;
+    invoke %tmp.425 %tmp.426(%tmp.427, %tmp.428);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 121 8 ]
+    %tmp.429 = self;
+    %tmp.430 = getv function %tmp.429 :addcard;
+    %tmp.431 = 0;
+    %tmp.432 = 66;
+    invoke %tmp.429 %tmp.430(%tmp.431, %tmp.432);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 122 8 ]
+    %tmp.433 = self;
+    %tmp.434 = getv function %tmp.433 :addcard;
+    %tmp.435 = 0;
+    %tmp.436 = 34;
+    invoke %tmp.433 %tmp.434(%tmp.435, %tmp.436);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 123 8 ]
+    %tmp.437 = self;
+    %tmp.438 = getv function %tmp.437 :addcard;
+    %tmp.439 = 0;
+    %tmp.440 = 82;
+    invoke %tmp.437 %tmp.438(%tmp.439, %tmp.440);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 124 8 ]
+    %tmp.441 = self;
+    %tmp.442 = getv function %tmp.441 :addcard;
+    %tmp.443 = 0;
+    %tmp.444 = 18;
+    invoke %tmp.441 %tmp.442(%tmp.443, %tmp.444);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 125 8 ]
+    %tmp.445 = self;
+    %tmp.446 = getv function %tmp.445 :addcard;
+    %tmp.447 = 0;
+    %tmp.448 = 98;
+    invoke %tmp.445 %tmp.446(%tmp.447, %tmp.448);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 126 8 ]
+    %tmp.449 = self;
+    %tmp.450 = getv function %tmp.449 :addcard;
+    %tmp.451 = 0;
+    %tmp.452 = 2;
+    invoke %tmp.449 %tmp.450(%tmp.451, %tmp.452);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 129 8 ]
+    %tmp.453 = self;
+    %tmp.454 = getv function %tmp.453 :addcard;
+    %tmp.455 = 100;
+    %tmp.456 = 50;
+    invoke %tmp.453 %tmp.454(%tmp.455, %tmp.456);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 130 8 ]
+    %tmp.457 = self;
+    %tmp.458 = getv function %tmp.457 :addcard;
+    %tmp.459 = 100;
+    %tmp.460 = 66;
+    invoke %tmp.457 %tmp.458(%tmp.459, %tmp.460);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 131 8 ]
+    %tmp.461 = self;
+    %tmp.462 = getv function %tmp.461 :addcard;
+    %tmp.463 = 100;
+    %tmp.464 = 34;
+    invoke %tmp.461 %tmp.462(%tmp.463, %tmp.464);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 132 8 ]
+    %tmp.465 = self;
+    %tmp.466 = getv function %tmp.465 :addcard;
+    %tmp.467 = 100;
+    %tmp.468 = 82;
+    invoke %tmp.465 %tmp.466(%tmp.467, %tmp.468);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 133 8 ]
+    %tmp.469 = self;
+    %tmp.470 = getv function %tmp.469 :addcard;
+    %tmp.471 = 100;
+    %tmp.472 = 18;
+    invoke %tmp.469 %tmp.470(%tmp.471, %tmp.472);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 134 8 ]
+    %tmp.473 = self;
+    %tmp.474 = getv function %tmp.473 :addcard;
+    %tmp.475 = 100;
+    %tmp.476 = 98;
+    invoke %tmp.473 %tmp.474(%tmp.475, %tmp.476);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 135 8 ]
+    %tmp.477 = self;
+    %tmp.478 = getv function %tmp.477 :addcard;
+    %tmp.479 = 100;
+    %tmp.480 = 2;
+    invoke %tmp.477 %tmp.478(%tmp.479, %tmp.480);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_54_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 136 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_stmt:
+    %tmp.482 = getv ? :layouts;
+    %tmp.484 = getv ? :layout;
+    %tmp.485 = agetv %tmp.482 %tmp.484;
+    %tmp.486 = getv function %tmp.485 :equals;
+    %tmp.487 = "Solitaire";
+    %tmp.488 = invoke %tmp.485 %tmp.486(%tmp.487);
+    bf %tmp.488 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_52_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 138 8 ]
+    %tmp.489 = self;
+    %tmp.490 = getv function %tmp.489 :addcard;
+    %tmp.491 = 8;
+    %tmp.492 = 0;
+    invoke %tmp.489 %tmp.490(%tmp.491, %tmp.492);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 139 8 ]
+    %tmp.493 = self;
+    %tmp.494 = getv function %tmp.493 :addcard;
+    %tmp.495 = 36;
+    %tmp.496 = 0;
+    invoke %tmp.493 %tmp.494(%tmp.495, %tmp.496);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 140 8 ]
+    %tmp.497 = self;
+    %tmp.498 = getv function %tmp.497 :addcard;
+    %tmp.499 = 64;
+    %tmp.500 = 0;
+    invoke %tmp.497 %tmp.498(%tmp.499, %tmp.500);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 141 8 ]
+    %tmp.501 = self;
+    %tmp.502 = getv function %tmp.501 :addcard;
+    %tmp.503 = 92;
+    %tmp.504 = 0;
+    invoke %tmp.501 %tmp.502(%tmp.503, %tmp.504);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 142 8 ]
+    %tmp.505 = newa 6;
+    %tmp.506 = 1;
+    %tmp.507 = dup %tmp.505;
+    %tmp.508 = aputv %tmp.507 0 %tmp.506;
+    %tmp.509 = 2;
+    %tmp.510 = dup %tmp.508;
+    %tmp.511 = aputv %tmp.510 1 %tmp.509;
+    %tmp.512 = 3;
+    %tmp.513 = dup %tmp.511;
+    %tmp.514 = aputv %tmp.513 2 %tmp.512;
+    %tmp.515 = 4;
+    %tmp.516 = dup %tmp.514;
+    %tmp.517 = aputv %tmp.516 3 %tmp.515;
+    %tmp.518 = 5;
+    %tmp.519 = dup %tmp.517;
+    %tmp.520 = aputv %tmp.519 4 %tmp.518;
+    %tmp.521 = 6;
+    %tmp.522 = dup %tmp.520;
+    %tmp.523 = aputv %tmp.522 5 %tmp.521;
+    putv self :tmp %tmp.523;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 143 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_end" ]
+    %i.7 = local;
+    %tmp.524 = 0;
+    lputv %i.7 %tmp.524;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_test:
+    %tmp.526 = lgetv %i.7;
+    %tmp.527 = 6;
+    %tmp.528 = lt %tmp.526 %tmp.527;
+    bf %tmp.528 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_30_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 144 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_end" ]
+    %j.8 = local;
+    %tmp.529 = 0;
+    lputv %j.8 %tmp.529;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_test:
+    %tmp.531 = lgetv %j.8;
+    %tmp.533 = getv ? :tmp;
+    %tmp.535 = lgetv %i.7;
+    %tmp.536 = agetv %tmp.533 %tmp.535;
+    %tmp.537 = lt %tmp.531 %tmp.536;
+    bf %tmp.537 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_39_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 145 16 ]
+    %tmp.538 = self;
+    %tmp.539 = getv function %tmp.538 :addcard;
+    %tmp.541 = lgetv %i.7;
+    %tmp.542 = 20;
+    %tmp.543 = mul %tmp.541 %tmp.542;
+    %tmp.545 = lgetv %j.8;
+    %tmp.546 = 12;
+    %tmp.547 = mul %tmp.545 %tmp.546;
+    %tmp.548 = 38;
+    %tmp.549 = add %tmp.547 %tmp.548;
+    invoke %tmp.538 %tmp.539(%tmp.543, %tmp.549);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_39_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 144 ]
+    %tmp.552 = lgetv %j.8;
+    %tmp.553 = add %tmp.552 1;
+    lputv %j.8 %tmp.553;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_144_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_30_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 143 ]
+    %tmp.556 = lgetv %i.7;
+    %tmp.557 = add %tmp.556 1;
+    lputv %i.7 %tmp.557;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_143_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_52_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 148 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_stmt:
+    %tmp.559 = getv ? :layouts;
+    %tmp.561 = getv ? :layout;
+    %tmp.562 = agetv %tmp.559 %tmp.561;
+    %tmp.563 = getv function %tmp.562 :equals;
+    %tmp.564 = "Heart";
+    %tmp.565 = invoke %tmp.562 %tmp.563(%tmp.564);
+    bf %tmp.565 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_48_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 152 8 ]
+    %tmp.566 = self;
+    %tmp.567 = getv function %tmp.566 :addcard;
+    %tmp.568 = 30;
+    %tmp.569 = 24;
+    invoke %tmp.566 %tmp.567(%tmp.568, %tmp.569);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 153 8 ]
+    %tmp.570 = self;
+    %tmp.571 = getv function %tmp.570 :addcard;
+    %tmp.572 = 70;
+    %tmp.573 = 24;
+    invoke %tmp.570 %tmp.571(%tmp.572, %tmp.573);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 154 8 ]
+    %tmp.574 = self;
+    %tmp.575 = getv function %tmp.574 :addcard;
+    %tmp.576 = 40;
+    %tmp.577 = 48;
+    invoke %tmp.574 %tmp.575(%tmp.576, %tmp.577);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 155 8 ]
+    %tmp.578 = self;
+    %tmp.579 = getv function %tmp.578 :addcard;
+    %tmp.580 = 60;
+    %tmp.581 = 48;
+    invoke %tmp.578 %tmp.579(%tmp.580, %tmp.581);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 156 8 ]
+    %tmp.582 = self;
+    %tmp.583 = getv function %tmp.582 :addcard;
+    %tmp.584 = 50;
+    %tmp.585 = 64;
+    invoke %tmp.582 %tmp.583(%tmp.584, %tmp.585);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 159 8 ]
+    %tmp.586 = self;
+    %tmp.587 = getv function %tmp.586 :addcard;
+    %tmp.588 = 20;
+    %tmp.589 = 52;
+    invoke %tmp.586 %tmp.587(%tmp.588, %tmp.589);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 160 8 ]
+    %tmp.590 = self;
+    %tmp.591 = getv function %tmp.590 :addcard;
+    %tmp.592 = 30;
+    %tmp.593 = 68;
+    invoke %tmp.590 %tmp.591(%tmp.592, %tmp.593);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 161 8 ]
+    %tmp.594 = self;
+    %tmp.595 = getv function %tmp.594 :addcard;
+    %tmp.596 = 40;
+    %tmp.597 = 84;
+    invoke %tmp.594 %tmp.595(%tmp.596, %tmp.597);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 164 8 ]
+    %tmp.598 = self;
+    %tmp.599 = getv function %tmp.598 :addcard;
+    %tmp.600 = 80;
+    %tmp.601 = 52;
+    invoke %tmp.598 %tmp.599(%tmp.600, %tmp.601);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 165 8 ]
+    %tmp.602 = self;
+    %tmp.603 = getv function %tmp.602 :addcard;
+    %tmp.604 = 70;
+    %tmp.605 = 68;
+    invoke %tmp.602 %tmp.603(%tmp.604, %tmp.605);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 166 8 ]
+    %tmp.606 = self;
+    %tmp.607 = getv function %tmp.606 :addcard;
+    %tmp.608 = 60;
+    %tmp.609 = 84;
+    invoke %tmp.606 %tmp.607(%tmp.608, %tmp.609);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 169 8 ]
+    %tmp.610 = self;
+    %tmp.611 = getv function %tmp.610 :addcard;
+    %tmp.612 = 20;
+    %tmp.613 = 0;
+    invoke %tmp.610 %tmp.611(%tmp.612, %tmp.613);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 170 8 ]
+    %tmp.614 = self;
+    %tmp.615 = getv function %tmp.614 :addcard;
+    %tmp.616 = 10;
+    %tmp.617 = 36;
+    invoke %tmp.614 %tmp.615(%tmp.616, %tmp.617);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 171 8 ]
+    %tmp.618 = self;
+    %tmp.619 = getv function %tmp.618 :addcard;
+    %tmp.620 = 10;
+    %tmp.621 = 4;
+    invoke %tmp.618 %tmp.619(%tmp.620, %tmp.621);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 172 8 ]
+    %tmp.622 = self;
+    %tmp.623 = getv function %tmp.622 :addcard;
+    %tmp.624 = 30;
+    %tmp.625 = 4;
+    invoke %tmp.622 %tmp.623(%tmp.624, %tmp.625);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 173 8 ]
+    %tmp.626 = self;
+    %tmp.627 = getv function %tmp.626 :addcard;
+    %tmp.628 = 40;
+    %tmp.629 = 12;
+    invoke %tmp.626 %tmp.627(%tmp.628, %tmp.629);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 174 8 ]
+    %tmp.630 = self;
+    %tmp.631 = getv function %tmp.630 :addcard;
+    %tmp.632 = 0;
+    %tmp.633 = 20;
+    invoke %tmp.630 %tmp.631(%tmp.632, %tmp.633);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 177 8 ]
+    %tmp.634 = self;
+    %tmp.635 = getv function %tmp.634 :addcard;
+    %tmp.636 = 80;
+    %tmp.637 = 0;
+    invoke %tmp.634 %tmp.635(%tmp.636, %tmp.637);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 178 8 ]
+    %tmp.638 = self;
+    %tmp.639 = getv function %tmp.638 :addcard;
+    %tmp.640 = 90;
+    %tmp.641 = 36;
+    invoke %tmp.638 %tmp.639(%tmp.640, %tmp.641);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 179 8 ]
+    %tmp.642 = self;
+    %tmp.643 = getv function %tmp.642 :addcard;
+    %tmp.644 = 70;
+    %tmp.645 = 4;
+    invoke %tmp.642 %tmp.643(%tmp.644, %tmp.645);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 180 8 ]
+    %tmp.646 = self;
+    %tmp.647 = getv function %tmp.646 :addcard;
+    %tmp.648 = 90;
+    %tmp.649 = 4;
+    invoke %tmp.646 %tmp.647(%tmp.648, %tmp.649);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 181 8 ]
+    %tmp.650 = self;
+    %tmp.651 = getv function %tmp.650 :addcard;
+    %tmp.652 = 60;
+    %tmp.653 = 12;
+    invoke %tmp.650 %tmp.651(%tmp.652, %tmp.653);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 182 8 ]
+    %tmp.654 = self;
+    %tmp.655 = getv function %tmp.654 :addcard;
+    %tmp.656 = 100;
+    %tmp.657 = 20;
+    invoke %tmp.654 %tmp.655(%tmp.656, %tmp.657);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 185 8 ]
+    %tmp.658 = self;
+    %tmp.659 = getv function %tmp.658 :addcard;
+    %tmp.660 = 50;
+    %tmp.661 = 20;
+    invoke %tmp.658 %tmp.659(%tmp.660, %tmp.661);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 186 8 ]
+    %tmp.662 = self;
+    %tmp.663 = getv function %tmp.662 :addcard;
+    %tmp.664 = 50;
+    %tmp.665 = 96;
+    invoke %tmp.662 %tmp.663(%tmp.664, %tmp.665);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_48_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 187 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_stmt:
+    %tmp.667 = getv ? :layouts;
+    %tmp.669 = getv ? :layout;
+    %tmp.670 = agetv %tmp.667 %tmp.669;
+    %tmp.671 = getv function %tmp.670 :equals;
+    %tmp.672 = "Checkers";
+    %tmp.673 = invoke %tmp.670 %tmp.671(%tmp.672);
+    bf %tmp.673 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_51_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 189 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_end" ]
+    %x.9 = local;
+    %tmp.674 = 16;
+    lputv %x.9 %tmp.674;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_test:
+    %tmp.676 = lgetv %x.9;
+    %tmp.677 = 100;
+    %tmp.678 = lte %tmp.676 %tmp.677;
+    bf %tmp.678 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_36_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 190 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_end" ]
+    %y.10 = local;
+    %tmp.679 = 26;
+    lputv %y.10 %tmp.679;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_test:
+    %tmp.681 = lgetv %y.10;
+    %tmp.682 = 100;
+    %tmp.683 = lte %tmp.681 %tmp.682;
+    bf %tmp.683 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_40_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 191 16 ]
+    %tmp.684 = self;
+    %tmp.685 = getv function %tmp.684 :addcard;
+    %tmp.687 = lgetv %x.9;
+    %tmp.689 = lgetv %y.10;
+    invoke %tmp.684 %tmp.685(%tmp.687, %tmp.689);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_40_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 190 ]
+    %tmp.690 = lgetv %y.10;
+    %tmp.691 = 48;
+    %tmp.692 = add %tmp.690 %tmp.691;
+    lputv %y.10 %tmp.692;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_190_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_36_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 189 ]
+    %tmp.693 = lgetv %x.9;
+    %tmp.694 = 33;
+    %tmp.695 = add %tmp.693 %tmp.694;
+    lputv %x.9 %tmp.695;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_189_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 194 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_end" ]
+    %x.11 = local;
+    %tmp.696 = 0;
+    lputv %x.11 %tmp.696;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_test:
+    %tmp.698 = lgetv %x.11;
+    %tmp.699 = 100;
+    %tmp.700 = lte %tmp.698 %tmp.699;
+    bf %tmp.700 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_35_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 195 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_end" ]
+    %y.12 = local;
+    %tmp.701 = 2;
+    lputv %y.12 %tmp.701;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_test:
+    %tmp.703 = lgetv %y.12;
+    %tmp.704 = 100;
+    %tmp.705 = lte %tmp.703 %tmp.704;
+    bf %tmp.705 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_39_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 196 16 ]
+    %tmp.706 = self;
+    %tmp.707 = getv function %tmp.706 :addcard;
+    %tmp.709 = lgetv %x.11;
+    %tmp.711 = lgetv %y.12;
+    invoke %tmp.706 %tmp.707(%tmp.709, %tmp.711);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_39_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 195 ]
+    %tmp.712 = lgetv %y.12;
+    %tmp.713 = 48;
+    %tmp.714 = add %tmp.712 %tmp.713;
+    lputv %y.12 %tmp.714;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_195_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_35_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 194 ]
+    %tmp.715 = lgetv %x.11;
+    %tmp.716 = 33;
+    %tmp.717 = add %tmp.715 %tmp.716;
+    lputv %x.11 %tmp.717;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_194_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 199 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_end" ]
+    %x.13 = local;
+    %tmp.718 = 16;
+    lputv %x.13 %tmp.718;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_test:
+    %tmp.720 = lgetv %x.13;
+    %tmp.721 = 100;
+    %tmp.722 = lte %tmp.720 %tmp.721;
+    bf %tmp.722 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_36_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 200 12 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_end" ]
+    %y.14 = local;
+    %tmp.723 = 26;
+    lputv %y.14 %tmp.723;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_test:
+    %tmp.725 = lgetv %y.14;
+    %tmp.726 = 100;
+    %tmp.727 = lte %tmp.725 %tmp.726;
+    bf %tmp.727 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_40_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 201 16 ]
+    %tmp.728 = self;
+    %tmp.729 = getv function %tmp.728 :addcard;
+    %tmp.731 = lgetv %x.13;
+    %tmp.733 = lgetv %y.14;
+    invoke %tmp.728 %tmp.729(%tmp.731, %tmp.733);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_40_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 200 ]
+    %tmp.734 = lgetv %y.14;
+    %tmp.735 = 48;
+    %tmp.736 = add %tmp.734 %tmp.735;
+    lputv %y.14 %tmp.736;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_200_12_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_36_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 199 ]
+    %tmp.737 = lgetv %x.13;
+    %tmp.738 = 33;
+    %tmp.739 = add %tmp.737 %tmp.738;
+    lputv %x.13 %tmp.739;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_199_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_51_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 204 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_stmt:
+    %tmp.741 = getv ? :layouts;
+    %tmp.743 = getv ? :layout;
+    %tmp.744 = agetv %tmp.741 %tmp.743;
+    %tmp.745 = getv function %tmp.744 :equals;
+    %tmp.746 = "Stacks?";
+    %tmp.747 = invoke %tmp.744 %tmp.745(%tmp.746);
+    bf %tmp.747 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_50_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 206 8 ]
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_50_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_50_stop" ]
+    %h.15 = local;
+    %tmp.748 = newa 6;
+    %tmp.749 = 2;
+    %tmp.750 = dup %tmp.748;
+    %tmp.751 = aputv %tmp.750 0 %tmp.749;
+    %tmp.752 = 3;
+    %tmp.753 = dup %tmp.751;
+    %tmp.754 = aputv %tmp.753 1 %tmp.752;
+    %tmp.755 = 4;
+    %tmp.756 = dup %tmp.754;
+    %tmp.757 = aputv %tmp.756 2 %tmp.755;
+    %tmp.758 = 5;
+    %tmp.759 = dup %tmp.757;
+    %tmp.760 = aputv %tmp.759 3 %tmp.758;
+    %tmp.761 = 6;
+    %tmp.762 = dup %tmp.760;
+    %tmp.763 = aputv %tmp.762 4 %tmp.761;
+    %tmp.764 = 7;
+    %tmp.765 = dup %tmp.763;
+    %tmp.766 = aputv %tmp.765 5 %tmp.764;
+    lputv %h.15 %tmp.766;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 207 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_end" ]
+    %i.16 = local;
+    %tmp.767 = 0;
+    lputv %i.16 %tmp.767;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_test:
+    %tmp.769 = lgetv %i.16;
+    %tmp.770 = 100;
+    %tmp.771 = lt %tmp.769 %tmp.770;
+    bf %tmp.771 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_32_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 208 12 ]
+    %tmp.772 = getm $.Toybox.Math;
+    %tmp.773 = getv function %tmp.772 :rand;
+    %tmp.774 = invoke %tmp.772 %tmp.773();
+    %tmp.775 = 6;
+    %tmp.776 = mod %tmp.774 %tmp.775;
+    putv self :tmp %tmp.776;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 209 12 ]
+    %tmp.777 = getm $.Toybox.Math;
+    %tmp.778 = getv function %tmp.777 :rand;
+    %tmp.779 = invoke %tmp.777 %tmp.778();
+    %tmp.780 = 6;
+    %tmp.781 = mod %tmp.779 %tmp.780;
+    putv self :tmp2 %tmp.781;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 210 12 ]
+    %tmp.783 = lgetv %h.15;
+    %tmp.785 = getv ? :tmp;
+    %tmp.786 = agetv %tmp.783 %tmp.785;
+    putv self :tmp3 %tmp.786;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 211 12 ]
+    %tmp.787 = lgetv %h.15;
+    %tmp.789 = lgetv %h.15;
+    %tmp.791 = getv ? :tmp2;
+    %tmp.792 = agetv %tmp.789 %tmp.791;
+    %tmp.794 = getv ? :tmp;
+    aputv %tmp.787 %tmp.794 %tmp.792;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 212 12 ]
+    %tmp.795 = lgetv %h.15;
+    %tmp.797 = getv ? :tmp3;
+    %tmp.799 = getv ? :tmp2;
+    aputv %tmp.795 %tmp.799 %tmp.797;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_32_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 207 ]
+    %tmp.802 = lgetv %i.16;
+    %tmp.803 = add %tmp.802 1;
+    lputv %i.16 %tmp.803;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_207_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 215 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_end" ]
+    %i.17 = local;
+    %tmp.804 = 0;
+    lputv %i.17 %tmp.804;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_test:
+    %tmp.806 = lgetv %i.17;
+    %tmp.808 = lgetv %h.15;
+    %tmp.809 = 0;
+    %tmp.810 = agetv %tmp.808 %tmp.809;
+    %tmp.811 = lt %tmp.806 %tmp.810;
+    bf %tmp.811 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 216 12 ]
+    %tmp.812 = self;
+    %tmp.813 = getv function %tmp.812 :addcard;
+    %tmp.814 = 30;
+    %tmp.815 = 14;
+    invoke %tmp.812 %tmp.813(%tmp.814, %tmp.815);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 215 ]
+    %tmp.818 = lgetv %i.17;
+    %tmp.819 = add %tmp.818 1;
+    lputv %i.17 %tmp.819;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_215_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 218 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_end" ]
+    %i.18 = local;
+    %tmp.820 = 0;
+    lputv %i.18 %tmp.820;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_test:
+    %tmp.822 = lgetv %i.18;
+    %tmp.824 = lgetv %h.15;
+    %tmp.825 = 1;
+    %tmp.826 = agetv %tmp.824 %tmp.825;
+    %tmp.827 = lt %tmp.822 %tmp.826;
+    bf %tmp.827 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 219 12 ]
+    %tmp.828 = self;
+    %tmp.829 = getv function %tmp.828 :addcard;
+    %tmp.830 = 50;
+    %tmp.831 = 0;
+    invoke %tmp.828 %tmp.829(%tmp.830, %tmp.831);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 218 ]
+    %tmp.834 = lgetv %i.18;
+    %tmp.835 = add %tmp.834 1;
+    lputv %i.18 %tmp.835;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_218_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 221 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_end" ]
+    %i.19 = local;
+    %tmp.836 = 0;
+    lputv %i.19 %tmp.836;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_test:
+    %tmp.838 = lgetv %i.19;
+    %tmp.840 = lgetv %h.15;
+    %tmp.841 = 2;
+    %tmp.842 = agetv %tmp.840 %tmp.841;
+    %tmp.843 = lt %tmp.838 %tmp.842;
+    bf %tmp.843 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 222 12 ]
+    %tmp.844 = self;
+    %tmp.845 = getv function %tmp.844 :addcard;
+    %tmp.846 = 70;
+    %tmp.847 = 14;
+    invoke %tmp.844 %tmp.845(%tmp.846, %tmp.847);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 221 ]
+    %tmp.850 = lgetv %i.19;
+    %tmp.851 = add %tmp.850 1;
+    lputv %i.19 %tmp.851;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_221_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 224 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_end" ]
+    %i.20 = local;
+    %tmp.852 = 0;
+    lputv %i.20 %tmp.852;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_test:
+    %tmp.854 = lgetv %i.20;
+    %tmp.856 = lgetv %h.15;
+    %tmp.857 = 4;
+    %tmp.858 = agetv %tmp.856 %tmp.857;
+    %tmp.859 = lt %tmp.854 %tmp.858;
+    bf %tmp.859 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 225 12 ]
+    %tmp.860 = self;
+    %tmp.861 = getv function %tmp.860 :addcard;
+    %tmp.862 = 50;
+    %tmp.863 = 60;
+    invoke %tmp.860 %tmp.861(%tmp.862, %tmp.863);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 224 ]
+    %tmp.866 = lgetv %i.20;
+    %tmp.867 = add %tmp.866 1;
+    lputv %i.20 %tmp.867;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_224_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 227 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_end" ]
+    %i.21 = local;
+    %tmp.868 = 0;
+    lputv %i.21 %tmp.868;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_test:
+    %tmp.870 = lgetv %i.21;
+    %tmp.872 = lgetv %h.15;
+    %tmp.873 = 3;
+    %tmp.874 = agetv %tmp.872 %tmp.873;
+    %tmp.875 = lt %tmp.870 %tmp.874;
+    bf %tmp.875 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 228 12 ]
+    %tmp.876 = self;
+    %tmp.877 = getv function %tmp.876 :addcard;
+    %tmp.878 = 70;
+    %tmp.879 = 46;
+    invoke %tmp.876 %tmp.877(%tmp.878, %tmp.879);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 227 ]
+    %tmp.882 = lgetv %i.21;
+    %tmp.883 = add %tmp.882 1;
+    lputv %i.21 %tmp.883;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_227_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 230 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_end" ]
+    %i.22 = local;
+    %tmp.884 = 0;
+    lputv %i.22 %tmp.884;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_test:
+    %tmp.886 = lgetv %i.22;
+    %tmp.888 = lgetv %h.15;
+    %tmp.889 = 5;
+    %tmp.890 = agetv %tmp.888 %tmp.889;
+    %tmp.891 = lt %tmp.886 %tmp.890;
+    bf %tmp.891 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 231 12 ]
+    %tmp.892 = self;
+    %tmp.893 = getv function %tmp.892 :addcard;
+    %tmp.894 = 50;
+    %tmp.895 = 100;
+    invoke %tmp.892 %tmp.893(%tmp.894, %tmp.895);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_33_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 230 ]
+    %tmp.898 = lgetv %i.22;
+    %tmp.899 = add %tmp.898 1;
+    lputv %i.22 %tmp.899;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_230_8_for_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_50_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 233 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_stmt:
+    %tmp.901 = getv ? :layouts;
+    %tmp.903 = getv ? :layout;
+    %tmp.904 = agetv %tmp.901 %tmp.903;
+    %tmp.905 = getv function %tmp.904 :equals;
+    %tmp.906 = "Taj Mahal";
+    %tmp.907 = invoke %tmp.904 %tmp.905(%tmp.906);
+    bf %tmp.907 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_52_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 236 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_end" ]
+    %y.23 = local;
+    %tmp.908 = 82;
+    lputv %y.23 %tmp.908;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_test:
+    %tmp.910 = lgetv %y.23;
+    %tmp.911 = 10;
+    %tmp.912 = gte %tmp.910 %tmp.911;
+    bf %tmp.912 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_35_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 237 12 ]
+    %tmp.913 = self;
+    %tmp.914 = getv function %tmp.913 :addcard;
+    %tmp.915 = 10;
+    %tmp.917 = lgetv %y.23;
+    invoke %tmp.913 %tmp.914(%tmp.915, %tmp.917);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 238 12 ]
+    %tmp.918 = self;
+    %tmp.919 = getv function %tmp.918 :addcard;
+    %tmp.920 = 90;
+    %tmp.922 = lgetv %y.23;
+    invoke %tmp.918 %tmp.919(%tmp.920, %tmp.922);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_35_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 236 ]
+    %tmp.923 = lgetv %y.23;
+    %tmp.924 = 16;
+    %tmp.925 = sub %tmp.923 %tmp.924;
+    lputv %y.23 %tmp.925;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_236_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 241 8 ]
+    for @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_init:
+    [ "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_end" ]
+    %y.24 = local;
+    %tmp.926 = 98;
+    lputv %y.24 %tmp.926;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_test:
+    %tmp.928 = lgetv %y.24;
+    %tmp.929 = 20;
+    %tmp.930 = gte %tmp.928 %tmp.929;
+    bf %tmp.930 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_35_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 242 12 ]
+    %tmp.931 = self;
+    %tmp.932 = getv function %tmp.931 :addcard;
+    %tmp.933 = 0;
+    %tmp.935 = lgetv %y.24;
+    invoke %tmp.931 %tmp.932(%tmp.933, %tmp.935);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 243 12 ]
+    %tmp.936 = self;
+    %tmp.937 = getv function %tmp.936 :addcard;
+    %tmp.938 = 100;
+    %tmp.940 = lgetv %y.24;
+    invoke %tmp.936 %tmp.937(%tmp.938, %tmp.940);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_35_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 241 ]
+    %tmp.941 = lgetv %y.24;
+    %tmp.942 = 16;
+    %tmp.943 = sub %tmp.941 %tmp.942;
+    lputv %y.24 %tmp.943;
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_241_8_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 247 8 ]
+    %tmp.944 = self;
+    %tmp.945 = getv function %tmp.944 :addcard;
+    %tmp.946 = 30;
+    %tmp.947 = 90;
+    invoke %tmp.944 %tmp.945(%tmp.946, %tmp.947);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 248 8 ]
+    %tmp.948 = self;
+    %tmp.949 = getv function %tmp.948 :addcard;
+    %tmp.950 = 50;
+    %tmp.951 = 95;
+    invoke %tmp.948 %tmp.949(%tmp.950, %tmp.951);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 249 8 ]
+    %tmp.952 = self;
+    %tmp.953 = getv function %tmp.952 :addcard;
+    %tmp.954 = 70;
+    %tmp.955 = 90;
+    invoke %tmp.952 %tmp.953(%tmp.954, %tmp.955);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 250 8 ]
+    %tmp.956 = self;
+    %tmp.957 = getv function %tmp.956 :addcard;
+    %tmp.958 = 35;
+    %tmp.959 = 60;
+    invoke %tmp.956 %tmp.957(%tmp.958, %tmp.959);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 251 8 ]
+    %tmp.960 = self;
+    %tmp.961 = getv function %tmp.960 :addcard;
+    %tmp.962 = 65;
+    %tmp.963 = 60;
+    invoke %tmp.960 %tmp.961(%tmp.962, %tmp.963);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 252 8 ]
+    %tmp.964 = self;
+    %tmp.965 = getv function %tmp.964 :addcard;
+    %tmp.966 = 50;
+    %tmp.967 = 65;
+    invoke %tmp.964 %tmp.965(%tmp.966, %tmp.967);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 253 8 ]
+    %tmp.968 = self;
+    %tmp.969 = getv function %tmp.968 :addcard;
+    %tmp.970 = 40;
+    %tmp.971 = 35;
+    invoke %tmp.968 %tmp.969(%tmp.970, %tmp.971);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 254 8 ]
+    %tmp.972 = self;
+    %tmp.973 = getv function %tmp.972 :addcard;
+    %tmp.974 = 60;
+    %tmp.975 = 35;
+    invoke %tmp.972 %tmp.973(%tmp.974, %tmp.975);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_52_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 255 11 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_11_if_stmt:
+    %tmp.977 = getv ? :layouts;
+    %tmp.979 = getv ? :layout;
+    %tmp.980 = agetv %tmp.977 %tmp.979;
+    %tmp.981 = getv function %tmp.980 :equals;
+    %tmp.982 = "Tiger";
+    %tmp.983 = invoke %tmp.980 %tmp.981(%tmp.982);
+    bf %tmp.983 @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_11_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_48_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 258 8 ]
+    %tmp.984 = self;
+    %tmp.985 = getv function %tmp.984 :addcard;
+    %tmp.986 = 10;
+    %tmp.987 = 34;
+    invoke %tmp.984 %tmp.985(%tmp.986, %tmp.987);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 259 8 ]
+    %tmp.988 = self;
+    %tmp.989 = getv function %tmp.988 :addcard;
+    %tmp.990 = 30;
+    %tmp.991 = 16;
+    invoke %tmp.988 %tmp.989(%tmp.990, %tmp.991);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 260 8 ]
+    %tmp.992 = self;
+    %tmp.993 = getv function %tmp.992 :addcard;
+    %tmp.994 = 15;
+    %tmp.995 = 16;
+    invoke %tmp.992 %tmp.993(%tmp.994, %tmp.995);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 261 8 ]
+    %tmp.996 = self;
+    %tmp.997 = getv function %tmp.996 :addcard;
+    %tmp.998 = 15;
+    %tmp.999 = 2;
+    invoke %tmp.996 %tmp.997(%tmp.998, %tmp.999);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 264 8 ]
+    %tmp.1000 = self;
+    %tmp.1001 = getv function %tmp.1000 :addcard;
+    %tmp.1002 = 90;
+    %tmp.1003 = 34;
+    invoke %tmp.1000 %tmp.1001(%tmp.1002, %tmp.1003);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 265 8 ]
+    %tmp.1004 = self;
+    %tmp.1005 = getv function %tmp.1004 :addcard;
+    %tmp.1006 = 70;
+    %tmp.1007 = 16;
+    invoke %tmp.1004 %tmp.1005(%tmp.1006, %tmp.1007);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 266 8 ]
+    %tmp.1008 = self;
+    %tmp.1009 = getv function %tmp.1008 :addcard;
+    %tmp.1010 = 85;
+    %tmp.1011 = 16;
+    invoke %tmp.1008 %tmp.1009(%tmp.1010, %tmp.1011);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 267 8 ]
+    %tmp.1012 = self;
+    %tmp.1013 = getv function %tmp.1012 :addcard;
+    %tmp.1014 = 85;
+    %tmp.1015 = 2;
+    invoke %tmp.1012 %tmp.1013(%tmp.1014, %tmp.1015);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 270 8 ]
+    %tmp.1016 = self;
+    %tmp.1017 = getv function %tmp.1016 :addcard;
+    %tmp.1018 = 20;
+    %tmp.1019 = 82;
+    invoke %tmp.1016 %tmp.1017(%tmp.1018, %tmp.1019);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 271 8 ]
+    %tmp.1020 = self;
+    %tmp.1021 = getv function %tmp.1020 :addcard;
+    %tmp.1022 = 10;
+    %tmp.1023 = 66;
+    invoke %tmp.1020 %tmp.1021(%tmp.1022, %tmp.1023);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 272 8 ]
+    %tmp.1024 = self;
+    %tmp.1025 = getv function %tmp.1024 :addcard;
+    %tmp.1026 = 5;
+    %tmp.1027 = 50;
+    invoke %tmp.1024 %tmp.1025(%tmp.1026, %tmp.1027);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 275 8 ]
+    %tmp.1028 = self;
+    %tmp.1029 = getv function %tmp.1028 :addcard;
+    %tmp.1030 = 80;
+    %tmp.1031 = 82;
+    invoke %tmp.1028 %tmp.1029(%tmp.1030, %tmp.1031);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 276 8 ]
+    %tmp.1032 = self;
+    %tmp.1033 = getv function %tmp.1032 :addcard;
+    %tmp.1034 = 90;
+    %tmp.1035 = 66;
+    invoke %tmp.1032 %tmp.1033(%tmp.1034, %tmp.1035);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 277 8 ]
+    %tmp.1036 = self;
+    %tmp.1037 = getv function %tmp.1036 :addcard;
+    %tmp.1038 = 95;
+    %tmp.1039 = 50;
+    invoke %tmp.1036 %tmp.1037(%tmp.1038, %tmp.1039);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 280 8 ]
+    %tmp.1040 = self;
+    %tmp.1041 = getv function %tmp.1040 :addcard;
+    %tmp.1042 = 30;
+    %tmp.1043 = 94;
+    invoke %tmp.1040 %tmp.1041(%tmp.1042, %tmp.1043);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 281 8 ]
+    %tmp.1044 = self;
+    %tmp.1045 = getv function %tmp.1044 :addcard;
+    %tmp.1046 = 70;
+    %tmp.1047 = 94;
+    invoke %tmp.1044 %tmp.1045(%tmp.1046, %tmp.1047);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 282 8 ]
+    %tmp.1048 = self;
+    %tmp.1049 = getv function %tmp.1048 :addcard;
+    %tmp.1050 = 40;
+    %tmp.1051 = 98;
+    invoke %tmp.1048 %tmp.1049(%tmp.1050, %tmp.1051);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 283 8 ]
+    %tmp.1052 = self;
+    %tmp.1053 = getv function %tmp.1052 :addcard;
+    %tmp.1054 = 60;
+    %tmp.1055 = 98;
+    invoke %tmp.1052 %tmp.1053(%tmp.1054, %tmp.1055);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 284 8 ]
+    %tmp.1056 = self;
+    %tmp.1057 = getv function %tmp.1056 :addcard;
+    %tmp.1058 = 50;
+    %tmp.1059 = 98;
+    invoke %tmp.1056 %tmp.1057(%tmp.1058, %tmp.1059);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 288 8 ]
+    %tmp.1060 = self;
+    %tmp.1061 = getv function %tmp.1060 :addcard;
+    %tmp.1062 = 50;
+    %tmp.1063 = 30;
+    invoke %tmp.1060 %tmp.1061(%tmp.1062, %tmp.1063);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 289 8 ]
+    %tmp.1064 = self;
+    %tmp.1065 = getv function %tmp.1064 :addcard;
+    %tmp.1066 = 30;
+    %tmp.1067 = 54;
+    invoke %tmp.1064 %tmp.1065(%tmp.1066, %tmp.1067);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 290 8 ]
+    %tmp.1068 = self;
+    %tmp.1069 = getv function %tmp.1068 :addcard;
+    %tmp.1070 = 70;
+    %tmp.1071 = 54;
+    invoke %tmp.1068 %tmp.1069(%tmp.1070, %tmp.1071);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 291 8 ]
+    %tmp.1072 = self;
+    %tmp.1073 = getv function %tmp.1072 :addcard;
+    %tmp.1074 = 40;
+    %tmp.1075 = 58;
+    invoke %tmp.1072 %tmp.1073(%tmp.1074, %tmp.1075);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 292 8 ]
+    %tmp.1076 = self;
+    %tmp.1077 = getv function %tmp.1076 :addcard;
+    %tmp.1078 = 60;
+    %tmp.1079 = 58;
+    invoke %tmp.1076 %tmp.1077(%tmp.1078, %tmp.1079);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 293 8 ]
+    %tmp.1080 = self;
+    %tmp.1081 = getv function %tmp.1080 :addcard;
+    %tmp.1082 = 50;
+    %tmp.1083 = 54;
+    invoke %tmp.1080 %tmp.1081(%tmp.1082, %tmp.1083);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_48_stop:
+    goto @C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_11_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_255_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_233_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_204_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_187_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_148_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_136_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_102_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_72_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_58_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_27_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_20_11_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_13_4_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_6_21_stop:
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 297; ]
+function addcard(x, y) {
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_297_22_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 298 4 ]
+    %tmp.2 = getv ? :boardXY;
+    %tmp.3 = getv function %tmp.2 :add;
+    %tmp.4 = newa 2;
+    %tmp.6 = getv ? :SW;
+    %tmp.8 = lgetv %x;
+    %tmp.9 = mul %tmp.6 %tmp.8;
+    %tmp.10 = 200;
+    %tmp.11 = div %tmp.9 %tmp.10;
+    %tmp.12 = dup %tmp.4;
+    %tmp.13 = aputv %tmp.12 0 %tmp.11;
+    %tmp.15 = getv ? :SH;
+    %tmp.17 = lgetv %y;
+    %tmp.18 = mul %tmp.15 %tmp.17;
+    %tmp.19 = 200;
+    %tmp.20 = div %tmp.18 %tmp.19;
+    %tmp.21 = dup %tmp.13;
+    %tmp.22 = aputv %tmp.21 1 %tmp.20;
+    invoke %tmp.2 %tmp.3(%tmp.22);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 299 4 ]
+    %tmp.24 = getv ? :board;
+    %tmp.25 = getv function %tmp.24 :add;
+    %tmp.26 = newa 2;
+    %tmp.27 = "";
+    %tmp.28 = dup %tmp.26;
+    %tmp.29 = aputv %tmp.28 0 %tmp.27;
+    %tmp.30 = false;
+    %tmp.31 = dup %tmp.29;
+    %tmp.32 = aputv %tmp.31 1 %tmp.30;
+    invoke %tmp.24 %tmp.25(%tmp.32);
+C_Garmin_Projects_TriPeaks_source_TriPeaksLayouts_mc_297_22_stop:
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc"; @line = 1; ]
+<init> {
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksLayouts.mc" 3 4 ]
+    %tmp.33 = newa 12;
+    %tmp.34 = "Pile";
+    %tmp.35 = dup %tmp.33;
+    %tmp.36 = aputv %tmp.35 0 %tmp.34;
+    %tmp.37 = "Random";
+    %tmp.38 = dup %tmp.36;
+    %tmp.39 = aputv %tmp.38 1 %tmp.37;
+    %tmp.40 = "Original";
+    %tmp.41 = dup %tmp.39;
+    %tmp.42 = aputv %tmp.41 2 %tmp.40;
+    %tmp.43 = "Checkers";
+    %tmp.44 = dup %tmp.42;
+    %tmp.45 = aputv %tmp.44 3 %tmp.43;
+    %tmp.46 = "Quadrants";
+    %tmp.47 = dup %tmp.45;
+    %tmp.48 = aputv %tmp.47 4 %tmp.46;
+    %tmp.49 = "Solitaire";
+    %tmp.50 = dup %tmp.48;
+    %tmp.51 = aputv %tmp.50 5 %tmp.49;
+    %tmp.52 = "Eyeball";
+    %tmp.53 = dup %tmp.51;
+    %tmp.54 = aputv %tmp.53 6 %tmp.52;
+    %tmp.55 = "Tiger";
+    %tmp.56 = dup %tmp.54;
+    %tmp.57 = aputv %tmp.56 7 %tmp.55;
+    %tmp.58 = "Tie Fighter";
+    %tmp.59 = dup %tmp.57;
+    %tmp.60 = aputv %tmp.59 8 %tmp.58;
+    %tmp.61 = "Heart";
+    %tmp.62 = dup %tmp.60;
+    %tmp.63 = aputv %tmp.62 9 %tmp.61;
+    %tmp.64 = "Taj Mahal";
+    %tmp.65 = dup %tmp.63;
+    %tmp.66 = aputv %tmp.65 10 %tmp.64;
+    %tmp.67 = "Stacks?";
+    %tmp.68 = dup %tmp.66;
+    %tmp.69 = aputv %tmp.68 11 %tmp.67;
+    putv self :layouts %tmp.69;
+}

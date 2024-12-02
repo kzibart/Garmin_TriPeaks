@@ -1,0 +1,753 @@
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 3; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 5; ]
+class TriPeaksDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_7_26_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_7_26_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 11; ]
+    function onMenu() as Boolean {
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_11_33_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 12 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getv ? :TriPeaksSettings;
+        %tmp.3 = newc %tmp.6 ();
+        %tmp.10 = getv ? :TriPeaksMenuDelegate;
+        %tmp.7 = newc %tmp.10 ();
+        %tmp.11 = getm $.Toybox.WatchUi;
+        %tmp.12 = getv %tmp.11 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.12);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 13 8 ]
+        %tmp.13 = true;
+        ret %tmp.13;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_11_33_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 16; ]
+    function onTap(clickEvent) as Boolean {
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_16_42_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 17 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_16_42_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_16_42_stop" ]
+        %xy.1 = local;
+        %tmp.1 = lgetv %clickEvent;
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 18 8 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_8_if_stmt:
+        %tmp.5 = getv ? :moving;
+        bf %tmp.5 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_8_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_20_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 18 22 ]
+        %tmp.6 = false;
+        ret %tmp.6;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_20_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_18_8_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 19 8 ]
+        %tmp.8 = getv ? :state;
+        push %tmp.8;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtBegin:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 20 12 ]
+        %tmp.9 = dup %tmp.8;
+        %tmp.10 = 0;
+        %tmp.11 = getv function %tmp.9 :equals;
+        %tmp.12 = invoke %tmp.9 %tmp.11 (%tmp.10);
+        bt %tmp.12 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_20_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 66 12 ]
+        %tmp.13 = dup %tmp.8;
+        %tmp.14 = 1;
+        %tmp.15 = getv function %tmp.13 :equals;
+        %tmp.16 = invoke %tmp.13 %tmp.15 (%tmp.14);
+        bt %tmp.16 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_66_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 93 12 ]
+        %tmp.17 = dup %tmp.8;
+        %tmp.18 = 2;
+        %tmp.19 = getv function %tmp.17 :equals;
+        %tmp.20 = invoke %tmp.17 %tmp.19 (%tmp.18);
+        bt %tmp.20 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_93_12_switchCase;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 102 12 ]
+        %tmp.21 = dup %tmp.8;
+        %tmp.22 = 3;
+        %tmp.23 = getv function %tmp.21 :equals;
+        %tmp.24 = invoke %tmp.21 %tmp.23 (%tmp.22);
+        bt %tmp.24 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_102_12_switchCase;
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_defaultCodeBegin;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_20_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 22 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_16_if_stmt:
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :inbox;
+        %tmp.28 = lgetv %xy.1;
+        %tmp.30 = getv ? :selXY;
+        %tmp.31 = 0;
+        %tmp.32 = agetv %tmp.30 %tmp.31;
+        %tmp.34 = getv ? :selWH;
+        %tmp.35 = invoke %tmp.25 %tmp.26(%tmp.28, %tmp.32, %tmp.34);
+        bf %tmp.35 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_46_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 23 20 ]
+        %tmp.37 = getv ? :layout;
+        %tmp.38 = 1;
+        %tmp.39 = sub %tmp.37 %tmp.38;
+        putv self :layout %tmp.39;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 24 20 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_20_if_stmt:
+        %tmp.41 = getv ? :layout;
+        %tmp.42 = 0;
+        %tmp.43 = lt %tmp.41 %tmp.42;
+        bf %tmp.43 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_20_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_36_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 24 38 ]
+        %tmp.45 = getv ? :layouts;
+        %tmp.46 = getv function %tmp.45 :size;
+        %tmp.47 = invoke %tmp.45 %tmp.46();
+        %tmp.48 = 1;
+        %tmp.49 = sub %tmp.47 %tmp.48;
+        putv self :layout %tmp.49;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_36_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_24_20_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 25 20 ]
+        %tmp.50 = self;
+        %tmp.51 = getv function %tmp.50 :savegame;
+        invoke %tmp.50 %tmp.51();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 26 20 ]
+        %tmp.52 = getm $.Toybox.WatchUi;
+        %tmp.53 = getv function %tmp.52 :requestUpdate;
+        invoke %tmp.52 %tmp.53();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 27 20 ]
+        %tmp.54 = true;
+        ret %tmp.54;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_46_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_22_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 29 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_16_if_stmt:
+        %tmp.55 = self;
+        %tmp.56 = getv function %tmp.55 :inbox;
+        %tmp.58 = lgetv %xy.1;
+        %tmp.60 = getv ? :selXY;
+        %tmp.61 = 1;
+        %tmp.62 = agetv %tmp.60 %tmp.61;
+        %tmp.64 = getv ? :selWH;
+        %tmp.65 = invoke %tmp.55 %tmp.56(%tmp.58, %tmp.62, %tmp.64);
+        bf %tmp.65 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_46_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 30 20 ]
+        %tmp.67 = getv ? :layout;
+        %tmp.68 = 1;
+        %tmp.69 = add %tmp.67 %tmp.68;
+        %tmp.71 = getv ? :layouts;
+        %tmp.72 = getv function %tmp.71 :size;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        %tmp.74 = mod %tmp.69 %tmp.73;
+        putv self :layout %tmp.74;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 31 20 ]
+        %tmp.75 = self;
+        %tmp.76 = getv function %tmp.75 :savegame;
+        invoke %tmp.75 %tmp.76();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 32 20 ]
+        %tmp.77 = getm $.Toybox.WatchUi;
+        %tmp.78 = getv function %tmp.77 :requestUpdate;
+        invoke %tmp.77 %tmp.78();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 33 20 ]
+        %tmp.79 = true;
+        ret %tmp.79;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_46_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_29_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 35 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_16_if_stmt:
+        %tmp.80 = self;
+        %tmp.81 = getv function %tmp.80 :inbox;
+        %tmp.83 = lgetv %xy.1;
+        %tmp.85 = getv ? :themeXY;
+        %tmp.87 = getv ? :themeWH;
+        %tmp.88 = invoke %tmp.80 %tmp.81(%tmp.83, %tmp.85, %tmp.87);
+        bf %tmp.88 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_47_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 36 20 ]
+        %tmp.89 = getm $.Toybox.Application.Storage;
+        %tmp.90 = getv function %tmp.89 :getValue;
+        %tmp.91 = "theme";
+        %tmp.92 = invoke %tmp.89 %tmp.90(%tmp.91);
+        putv self :theme %tmp.92;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 37 20 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_20_if_stmt:
+        %tmp.94 = getv ? :theme;
+        %tmp.95 = null;
+        %tmp.96 = eq %tmp.94 %tmp.95;
+        bf %tmp.96 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_20_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_39_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 37 41 ]
+        %tmp.97 = 0;
+        putv self :theme %tmp.97;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_39_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_37_20_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 38 20 ]
+        %tmp.99 = getv ? :theme;
+        %tmp.100 = 1;
+        %tmp.101 = add %tmp.99 %tmp.100;
+        %tmp.103 = getv ? :themes;
+        %tmp.104 = getv function %tmp.103 :size;
+        %tmp.105 = invoke %tmp.103 %tmp.104();
+        %tmp.106 = mod %tmp.101 %tmp.105;
+        putv self :theme %tmp.106;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 39 20 ]
+        %tmp.107 = getm $.Toybox.Application.Storage;
+        %tmp.108 = getv function %tmp.107 :setValue;
+        %tmp.109 = "theme";
+        %tmp.111 = getv ? :theme;
+        invoke %tmp.107 %tmp.108(%tmp.109, %tmp.111);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 40 20 ]
+        %tmp.112 = getm $.Toybox.WatchUi;
+        %tmp.113 = getv function %tmp.112 :requestUpdate;
+        invoke %tmp.112 %tmp.113();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 41 20 ]
+        %tmp.114 = true;
+        ret %tmp.114;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_47_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_35_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 43 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_16_if_stmt:
+        %tmp.115 = self;
+        %tmp.116 = getv function %tmp.115 :inbox;
+        %tmp.118 = lgetv %xy.1;
+        %tmp.120 = getv ? :bgXY;
+        %tmp.122 = getv ? :bgWH;
+        %tmp.123 = invoke %tmp.115 %tmp.116(%tmp.118, %tmp.120, %tmp.122);
+        bf %tmp.123 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_41_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 44 20 ]
+        %tmp.124 = getm $.Toybox.Application.Storage;
+        %tmp.125 = getv function %tmp.124 :getValue;
+        %tmp.126 = "background";
+        %tmp.127 = invoke %tmp.124 %tmp.125(%tmp.126);
+        putv self :background %tmp.127;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 45 20 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_20_if_stmt:
+        %tmp.129 = getv ? :background;
+        %tmp.130 = null;
+        %tmp.131 = eq %tmp.129 %tmp.130;
+        bf %tmp.131 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_20_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_44_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 45 46 ]
+        %tmp.132 = 0;
+        putv self :background %tmp.132;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_44_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_45_20_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 46 20 ]
+        %tmp.134 = getv ? :background;
+        %tmp.135 = 1;
+        %tmp.136 = add %tmp.134 %tmp.135;
+        %tmp.138 = getv ? :backgrounds;
+        %tmp.139 = getv function %tmp.138 :size;
+        %tmp.140 = invoke %tmp.138 %tmp.139();
+        %tmp.141 = mod %tmp.136 %tmp.140;
+        putv self :background %tmp.141;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 47 20 ]
+        %tmp.142 = getm $.Toybox.Application.Storage;
+        %tmp.143 = getv function %tmp.142 :setValue;
+        %tmp.144 = "background";
+        %tmp.146 = getv ? :background;
+        invoke %tmp.142 %tmp.143(%tmp.144, %tmp.146);
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 48 20 ]
+        %tmp.147 = getm $.Toybox.WatchUi;
+        %tmp.148 = getv function %tmp.147 :requestUpdate;
+        invoke %tmp.147 %tmp.148();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 49 20 ]
+        %tmp.149 = true;
+        ret %tmp.149;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_41_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_43_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 51 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_16_if_stmt:
+        %tmp.150 = self;
+        %tmp.151 = getv function %tmp.150 :inbox;
+        %tmp.153 = lgetv %xy.1;
+        %tmp.155 = getv ? :startXY;
+        %tmp.157 = getv ? :startWH;
+        %tmp.158 = invoke %tmp.150 %tmp.151(%tmp.153, %tmp.155, %tmp.157);
+        bf %tmp.158 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_47_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 52 20 ]
+        %tmp.159 = 1;
+        %tmp.161 = getv ? :scale;
+        %tmp.162 = sub %tmp.159 %tmp.161;
+        putv self :tmp %tmp.162;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 53 20 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_stmt:
+        %tmp.164 = getv ? :animation;
+        %tmp.165 = 0;
+        %tmp.166 = eq %tmp.164 %tmp.165;
+        bf %tmp.166 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_40_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 53 42 ]
+        %tmp.168 = getv ? :tmp;
+        %tmp.169 = 5;
+        %tmp.170 = div %tmp.168 %tmp.169;
+        putv self :tmp2 %tmp.170;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_40_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_false:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 54 25 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_stmt:
+        %tmp.172 = getv ? :animation;
+        %tmp.173 = 1;
+        %tmp.174 = eq %tmp.172 %tmp.173;
+        bf %tmp.174 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_false;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_45_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 54 47 ]
+        %tmp.176 = getv ? :tmp;
+        %tmp.177 = 3;
+        %tmp.178 = div %tmp.176 %tmp.177;
+        putv self :tmp2 %tmp.178;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_45_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_false:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_55_25_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 55 27 ]
+        %tmp.180 = getv ? :tmp;
+        putv self :tmp2 %tmp.180;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_55_25_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_54_25_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_53_20_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 56 20 ]
+        %tmp.181 = newa 0;
+        putv self :path %tmp.181;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 57 20 ]
+        for @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_init:
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_end" ]
+        %i.2 = local;
+        %tmp.183 = getv ? :scale;
+        %tmp.185 = getv ? :tmp2;
+        %tmp.186 = add %tmp.183 %tmp.185;
+        lputv %i.2 %tmp.186;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_test:
+        %tmp.188 = lgetv %i.2;
+        %tmp.189 = 1;
+        %tmp.190 = lte %tmp.188 %tmp.189;
+        bf %tmp.190 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_56_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 58 24 ]
+        %tmp.192 = getv ? :path;
+        %tmp.193 = getv function %tmp.192 :add;
+        %tmp.195 = lgetv %i.2;
+        invoke %tmp.192 %tmp.193(%tmp.195);
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_56_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 57 ]
+        %tmp.196 = lgetv %i.2;
+        %tmp.198 = getv ? :tmp2;
+        %tmp.199 = add %tmp.196 %tmp.198;
+        lputv %i.2 %tmp.199;
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_57_20_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 60 20 ]
+        %tmp.200 = true;
+        putv self :zooming %tmp.200;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 61 20 ]
+        %tmp.201 = self;
+        %tmp.202 = getv function %tmp.201 :savegame;
+        invoke %tmp.201 %tmp.202();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 62 20 ]
+        %tmp.203 = getm $.Toybox.WatchUi;
+        %tmp.204 = getv function %tmp.203 :requestUpdate;
+        invoke %tmp.203 %tmp.204();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 63 20 ]
+        %tmp.205 = true;
+        ret %tmp.205;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_47_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_51_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 65 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_66_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 68 16 ]
+        for @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_test @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_incr @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_init:
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_begin" "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_end" ]
+        %i.3 = local;
+        %tmp.206 = 0;
+        lputv %i.3 %tmp.206;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_test:
+        %tmp.208 = lgetv %i.3;
+        %tmp.210 = getv ? :boardXY;
+        %tmp.211 = getv function %tmp.210 :size;
+        %tmp.212 = invoke %tmp.210 %tmp.211();
+        %tmp.213 = lt %tmp.208 %tmp.212;
+        bf %tmp.213 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_begin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_51_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 69 20 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_20_if_stmt:
+        %tmp.215 = getv ? :board;
+        %tmp.217 = lgetv %i.3;
+        %tmp.218 = agetv %tmp.215 %tmp.217;
+        %tmp.219 = 1;
+        %tmp.220 = agetv %tmp.218 %tmp.219;
+        bf %tmp.220 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_20_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_37_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 70 24 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_24_if_stmt:
+        %tmp.221 = self;
+        %tmp.222 = getv function %tmp.221 :inbox;
+        %tmp.224 = lgetv %xy.1;
+        %tmp.225 = newa 2;
+        %tmp.227 = getv ? :boardXY;
+        %tmp.229 = lgetv %i.3;
+        %tmp.230 = agetv %tmp.227 %tmp.229;
+        %tmp.231 = 0;
+        %tmp.232 = agetv %tmp.230 %tmp.231;
+        %tmp.234 = getv ? :gridXY;
+        %tmp.235 = 0;
+        %tmp.236 = agetv %tmp.234 %tmp.235;
+        %tmp.237 = add %tmp.232 %tmp.236;
+        %tmp.238 = dup %tmp.225;
+        %tmp.239 = aputv %tmp.238 0 %tmp.237;
+        %tmp.241 = getv ? :boardXY;
+        %tmp.243 = lgetv %i.3;
+        %tmp.244 = agetv %tmp.241 %tmp.243;
+        %tmp.245 = 1;
+        %tmp.246 = agetv %tmp.244 %tmp.245;
+        %tmp.248 = getv ? :gridXY;
+        %tmp.249 = 1;
+        %tmp.250 = agetv %tmp.248 %tmp.249;
+        %tmp.251 = add %tmp.246 %tmp.250;
+        %tmp.252 = dup %tmp.239;
+        %tmp.253 = aputv %tmp.252 1 %tmp.251;
+        %tmp.255 = getv ? :cardWH;
+        %tmp.256 = invoke %tmp.221 %tmp.222(%tmp.224, %tmp.253, %tmp.255);
+        bf %tmp.256 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_24_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_24_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_96_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 71 28 ]
+        %tmp.257 = self;
+        %tmp.258 = getv function %tmp.257 :play;
+        %tmp.260 = lgetv %i.3;
+        %tmp.261 = invoke %tmp.257 %tmp.258(%tmp.260);
+        putv self :tmp %tmp.261;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 72 28 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_28_if_stmt:
+        %tmp.263 = getv ? :tmp;
+        bf %tmp.263 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_28_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_28_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_37_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 73 32 ]
+        %tmp.264 = self;
+        %tmp.265 = getv function %tmp.264 :savegame;
+        invoke %tmp.264 %tmp.265();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 74 32 ]
+        %tmp.266 = getm $.Toybox.WatchUi;
+        %tmp.267 = getv function %tmp.266 :requestUpdate;
+        invoke %tmp.266 %tmp.267();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 75 32 ]
+        %tmp.268 = true;
+        ret %tmp.268;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_37_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_28_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_72_28_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 77 28 ]
+        %tmp.269 = false;
+        ret %tmp.269;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_96_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_24_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_70_24_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_37_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_20_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_69_20_if_end:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_51_stop:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_incr:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 68 ]
+        %tmp.272 = lgetv %i.3;
+        %tmp.273 = add %tmp.272 1;
+        lputv %i.3 %tmp.273;
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_test;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_68_16_for_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 81 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_16_if_stmt:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_20_begin:
+        %tmp.274 = self;
+        %tmp.275 = getv function %tmp.274 :inbox;
+        %tmp.277 = lgetv %xy.1;
+        %tmp.279 = getv ? :deckXY;
+        %tmp.281 = getv ? :cardWH;
+        %tmp.282 = invoke %tmp.274 %tmp.275(%tmp.277, %tmp.279, %tmp.281);
+        %tmp.283 = dup %tmp.282;
+        bf %tmp.283 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_48_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_48_true:
+        %tmp.285 = getv ? :deck;
+        %tmp.286 = getv function %tmp.285 :size;
+        %tmp.287 = invoke %tmp.285 %tmp.286();
+        %tmp.288 = 0;
+        %tmp.289 = gt %tmp.287 %tmp.288;
+        %tmp.290 = and %tmp.282 %tmp.289;
+        push %tmp.290;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_48_end:
+        %tmp.291 = phi [%tmp.283 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_20_begin] [%tmp.290 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_48_true] [%tmp.291 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_48_end];
+        bf %tmp.291 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_65_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 82 20 ]
+        %tmp.292 = self;
+        %tmp.293 = getv function %tmp.292 :deal;
+        invoke %tmp.292 %tmp.293();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 83 20 ]
+        %tmp.294 = getm $.Toybox.WatchUi;
+        %tmp.295 = getv function %tmp.294 :requestUpdate;
+        invoke %tmp.294 %tmp.295();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 84 20 ]
+        %tmp.296 = self;
+        %tmp.297 = getv function %tmp.296 :savegame;
+        invoke %tmp.296 %tmp.297();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 85 20 ]
+        %tmp.298 = true;
+        ret %tmp.298;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_65_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_81_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 87 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_16_if_stmt:
+        %tmp.299 = self;
+        %tmp.300 = getv function %tmp.299 :inbox;
+        %tmp.302 = lgetv %xy.1;
+        %tmp.304 = getv ? :newXY;
+        %tmp.306 = getv ? :newWH;
+        %tmp.307 = invoke %tmp.299 %tmp.300(%tmp.302, %tmp.304, %tmp.306);
+        bf %tmp.307 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_43_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 88 20 ]
+        %tmp.308 = self;
+        %tmp.309 = getv function %tmp.308 :newgame;
+        invoke %tmp.308 %tmp.309();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 89 20 ]
+        %tmp.310 = getm $.Toybox.WatchUi;
+        %tmp.311 = getv function %tmp.310 :requestUpdate;
+        invoke %tmp.310 %tmp.311();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 90 20 ]
+        %tmp.312 = true;
+        ret %tmp.312;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_43_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_87_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 92 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_93_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 95 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_16_if_stmt:
+        %tmp.313 = self;
+        %tmp.314 = getv function %tmp.313 :inbox;
+        %tmp.316 = lgetv %xy.1;
+        %tmp.318 = getv ? :newXY;
+        %tmp.320 = getv ? :newWH;
+        %tmp.321 = invoke %tmp.313 %tmp.314(%tmp.316, %tmp.318, %tmp.320);
+        bf %tmp.321 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_43_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 96 20 ]
+        %tmp.322 = self;
+        %tmp.323 = getv function %tmp.322 :addstats;
+        invoke %tmp.322 %tmp.323();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 97 20 ]
+        %tmp.324 = self;
+        %tmp.325 = getv function %tmp.324 :newgame;
+        invoke %tmp.324 %tmp.325();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 98 20 ]
+        %tmp.326 = getm $.Toybox.WatchUi;
+        %tmp.327 = getv function %tmp.326 :requestUpdate;
+        invoke %tmp.326 %tmp.327();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 99 20 ]
+        %tmp.328 = true;
+        ret %tmp.328;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_43_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_95_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 101 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_102_12_switchCase:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 104 16 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_16_if_stmt:
+        %tmp.329 = self;
+        %tmp.330 = getv function %tmp.329 :inbox;
+        %tmp.332 = lgetv %xy.1;
+        %tmp.334 = getv ? :newXY;
+        %tmp.336 = getv ? :newWH;
+        %tmp.337 = invoke %tmp.329 %tmp.330(%tmp.332, %tmp.334, %tmp.336);
+        bf %tmp.337 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_16_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_43_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 105 20 ]
+        %tmp.338 = self;
+        %tmp.339 = getv function %tmp.338 :addstats;
+        invoke %tmp.338 %tmp.339();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 106 20 ]
+        %tmp.340 = self;
+        %tmp.341 = getv function %tmp.340 :newgame;
+        invoke %tmp.340 %tmp.341();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 107 20 ]
+        %tmp.342 = getm $.Toybox.WatchUi;
+        %tmp.343 = getv function %tmp.342 :requestUpdate;
+        invoke %tmp.342 %tmp.343();
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 108 20 ]
+        %tmp.344 = true;
+        ret %tmp.344;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_43_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_16_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_104_16_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 110 16 ]
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtEnd;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_defaultCodeBegin:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_19_8_switchStmtEnd:
+        pop;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 112 8 ]
+        %tmp.345 = false;
+        ret %tmp.345;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_16_42_stop:
+    }
+    [ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 119; ]
+    function inbox(point, boxxy, boxwh) as Boolean {
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 120 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_stop" ]
+        %bx.1 = local;
+        %tmp.2 = lgetv %boxxy;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %boxwh;
+        %tmp.7 = 0;
+        %tmp.8 = agetv %tmp.6 %tmp.7;
+        %tmp.9 = 2;
+        %tmp.10 = div %tmp.8 %tmp.9;
+        %tmp.11 = sub %tmp.4 %tmp.10;
+        lputv %bx.1 %tmp.11;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 121 8 ]
+        [ "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_start" "C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_stop" ]
+        %by.2 = local;
+        %tmp.13 = lgetv %boxxy;
+        %tmp.14 = 1;
+        %tmp.15 = agetv %tmp.13 %tmp.14;
+        %tmp.17 = lgetv %boxwh;
+        %tmp.18 = 1;
+        %tmp.19 = agetv %tmp.17 %tmp.18;
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = sub %tmp.15 %tmp.21;
+        lputv %by.2 %tmp.22;
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 122 8 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_8_if_stmt:
+        %tmp.24 = lgetv %point;
+        %tmp.25 = 0;
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %bx.1;
+        %tmp.29 = lt %tmp.26 %tmp.28;
+        bf %tmp.29 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_8_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_25_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 122 26 ]
+        %tmp.30 = false;
+        ret %tmp.30;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_25_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_122_8_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 123 8 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_8_if_stmt:
+        %tmp.32 = lgetv %point;
+        %tmp.33 = 0;
+        %tmp.34 = agetv %tmp.32 %tmp.33;
+        %tmp.36 = lgetv %bx.1;
+        %tmp.38 = lgetv %boxwh;
+        %tmp.39 = 0;
+        %tmp.40 = agetv %tmp.38 %tmp.39;
+        %tmp.41 = add %tmp.36 %tmp.40;
+        %tmp.42 = gt %tmp.34 %tmp.41;
+        bf %tmp.42 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_8_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_34_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 123 35 ]
+        %tmp.43 = false;
+        ret %tmp.43;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_34_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_123_8_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 124 8 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_8_if_stmt:
+        %tmp.45 = lgetv %point;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.49 = lgetv %by.2;
+        %tmp.50 = lt %tmp.47 %tmp.49;
+        bf %tmp.50 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_8_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_25_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 124 26 ]
+        %tmp.51 = false;
+        ret %tmp.51;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_25_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_124_8_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 125 8 ]
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_8_if_stmt:
+        %tmp.53 = lgetv %point;
+        %tmp.54 = 1;
+        %tmp.55 = agetv %tmp.53 %tmp.54;
+        %tmp.57 = lgetv %by.2;
+        %tmp.59 = lgetv %boxwh;
+        %tmp.60 = 1;
+        %tmp.61 = agetv %tmp.59 %tmp.60;
+        %tmp.62 = add %tmp.57 %tmp.61;
+        %tmp.63 = gt %tmp.55 %tmp.62;
+        bf %tmp.63 @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_8_if_true:
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_34_start:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 125 35 ]
+        %tmp.64 = false;
+        ret %tmp.64;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_34_stop:
+        goto @C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_8_if_end;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_125_8_if_end:
+[ "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc" 126 8 ]
+        %tmp.65 = true;
+        ret %tmp.65;
+C_Garmin_Projects_TriPeaks_source_TriPeaksDelegate_mc_119_49_stop:
+    }
+}
+[ @file = "C:\Garmin\Projects\TriPeaks\source\TriPeaksDelegate.mc"; @line = 1; ]
+<init> {
+}
